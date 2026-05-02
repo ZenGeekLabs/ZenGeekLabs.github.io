@@ -1,3 +1,20 @@
-title: "我的博客"
-description: "记录学习与生活"
-theme: jekyll-theme-hacker
+title: ZenGeekLabs
+description: Notes on code, tools, and things worth sharing.
+theme: minima
+lang: zh-CN
+timezone: Asia/Shanghai
+url: "https://zengeeklabs.github.io"
+baseurl: ""
+
+author:
+  name: ZenGeekLabs
+
+markdown: kramdown
+permalink: /:year/:month/:day/:title/
+
+header_pages:
+  - about.md
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
