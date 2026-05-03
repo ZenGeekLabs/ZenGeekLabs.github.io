@@ -1,0 +1,24 @@
+{{- define "title" -}}
+  {{- .Title -}} - {{- .Site.Title -}}
+{{- end -}}
+
+{{- define "content" -}}
+  {{- $pages := where site.RegularPages "Type" "in" site.Params.mainSections -}}
+  <div class="page archive">
+    <h2 class="single-title">{{ .Title }}</h2>
+    {{- with .Params.summary -}}
+      <div class="content" id="content">
+        <p>{{ . }}</p>
+      </div>
+    {{- end -}}
+    {{- range ($pages.GroupByDate "2006") -}}
+      <h3 class="group-title">{{ .Key }}</h3>
+      {{- range .Pages.ByDate.Reverse -}}
+        <div class="archive-item">
+          <a href="{{ .RelPermalink }}" class="archive-item-link">{{ .Title }}</a>
+          <span class="archive-item-date">{{ .Date.Format "01-02" }}</span>
+        </div>
+      {{- end -}}
+    {{- end -}}
+  </div>
+{{- end -}}

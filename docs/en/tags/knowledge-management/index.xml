@@ -1,19 +1,14 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
-  <channel>
-    <title>Knowledge Management on ZenGeekLabs</title>
-    <link>https://zengeeklabs.github.io/en/tags/knowledge-management/</link>
-    <description>Recent content in Knowledge Management on ZenGeekLabs</description>
-    <generator>Hugo</generator>
-    <language>en-US</language>
-    <lastBuildDate>Thu, 18 Jul 2024 21:00:00 +0800</lastBuildDate>
-    <atom:link href="https://zengeeklabs.github.io/en/tags/knowledge-management/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Reading Notes Do Not Need to Be Complete. Leave Searchable Anchors First.</title>
-      <link>https://zengeeklabs.github.io/en/blog/reading-notes/</link>
-      <pubDate>Thu, 18 Jul 2024 21:00:00 +0800</pubDate>
-      <guid>https://zengeeklabs.github.io/en/blog/reading-notes/</guid>
-      <description>A short sample post used to test homepage lists, archives, and tag pages with multiple entries.</description>
-    </item>
-  </channel>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Knowledge Management - Tag - ZenGeekLabs</title>
+        <link>https://zengeeklabs.github.io/en/tags/knowledge-management/</link>
+        <description>Knowledge Management - Tag - ZenGeekLabs</description>
+        <generator>Hugo -- gohugo.io</generator><language>en-US</language><lastBuildDate>Thu, 18 Jul 2024 21:00:00 &#43;0800</lastBuildDate><atom:link href="https://zengeeklabs.github.io/en/tags/knowledge-management/" rel="self" type="application/rss+xml" /><item>
+    <title>Reading Notes Do Not Need to Be Complete. Leave Searchable Anchors First.</title>
+    <link>https://zengeeklabs.github.io/en/blog/reading-notes/</link>
+    <pubDate>Thu, 18 Jul 2024 21:00:00 &#43;0800</pubDate><author>
+        <name>ZenGeekLabs</name>
+    </author><guid>https://zengeeklabs.github.io/en/blog/reading-notes/</guid>
+    <description><![CDATA[Searchable anchors are easier to sustain than perfect summaries.]]></description>
+</item></channel>
 </rss>

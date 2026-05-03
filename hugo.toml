@@ -1,186 +1,21 @@
 baseURL = "https://zengeeklabs.github.io/"
 title = "ZenGeekLabs"
-theme = "PaperMod"
+theme = "DoIt-main"
 defaultContentLanguage = "zh-cn"
 defaultContentLanguageInSubdir = false
 disableDefaultLanguageRedirect = true
 enableRobotsTXT = true
-pagination.pagerSize = 10
+enableEmoji = true
 publishDir = "docs"
+
+[pagination]
+  pagerSize = 10
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]
-
-[params]
-  env = "production"
-  author = "ZenGeekLabs"
-  displayFullLangName = true
-  keywords = ["博客", "Hugo", "编程", "工具", "工作流", "知识整理"]
-  description = "记录编程、工具、工作流、知识整理，以及那些值得长期复用的方法。"
-  DateFormat = "2006-01-02"
-  defaultTheme = "auto"
-  ShowReadingTime = true
-  ShowShareButtons = false
-  ShowPostNavLinks = true
-  ShowBreadCrumbs = true
-  ShowCodeCopyButtons = true
-  ShowWordCount = true
-  ShowToc = true
-  TocOpen = false
-  ShowAllPagesInArchive = true
-  disableSpecial1stPost = false
-  disableScrollToTop = false
-  mainSections = ["blog"]
-
-  [params.footer]
-    text = "内容优先，长期积累。"
-
-  [params.assets]
-    favicon = "/favicon.ico"
-    apple_touch_icon = "/apple-touch-icon.png"
-
-  [params.label]
-    text = "ZenGeekLabs"
-
-  [params.profileMode]
-    enabled = true
-    title = "ZenGeekLabs"
-    subtitle = "把经验写下来，把思考留下来。这里记录编程、工具、工作流与那些值得长期复用的方法。"
-    imageUrl = "/avatar-placeholder.svg"
-    imageTitle = "ZenGeekLabs Avatar"
-    imageWidth = 128
-    imageHeight = 128
-
-    [[params.profileMode.buttons]]
-      name = "阅读"
-      url = "/blog/"
-
-    [[params.profileMode.buttons]]
-      name = "归档"
-      url = "/archives/"
-
-    [[params.profileMode.buttons]]
-      name = "标签"
-      url = "/tags/"
-
-    [[params.profileMode.buttons]]
-      name = "搜索"
-      url = "/search/"
-
-    [[params.profileMode.buttons]]
-      name = "关于"
-      url = "/about/"
-
-  [[params.socialIcons]]
-    name = "github"
-    url = "https://github.com/"
-
-  [[params.socialIcons]]
-    name = "bilibili"
-    url = "https://www.bilibili.com/"
-
-  [[params.socialIcons]]
-    name = "youtube"
-    url = "https://www.youtube.com/"
-
-  [[params.socialIcons]]
-    name = "rss"
-    url = "/index.xml"
-
-[languages]
-  [languages.zh-cn]
-    label = "中文"
-    locale = "zh-CN"
-    direction = "ltr"
-    weight = 1
-    title = "ZenGeekLabs"
-
-    [languages.zh-cn.params]
-      description = "记录编程、工具、工作流、知识整理，以及那些值得长期复用的方法。"
-
-      [languages.zh-cn.params.profileMode]
-        enabled = true
-        title = "ZenGeekLabs"
-        subtitle = "把经验写下来，把思考留下来。这里记录编程、工具、工作流与那些值得长期复用的方法。"
-        imageUrl = "/avatar-placeholder.svg"
-        imageTitle = "ZenGeekLabs Avatar"
-        imageWidth = 128
-        imageHeight = 128
-
-        [[languages.zh-cn.params.profileMode.buttons]]
-          name = "阅读"
-          url = "/blog/"
-
-        [[languages.zh-cn.params.profileMode.buttons]]
-          name = "归档"
-          url = "/archives/"
-
-        [[languages.zh-cn.params.profileMode.buttons]]
-          name = "标签"
-          url = "/tags/"
-
-        [[languages.zh-cn.params.profileMode.buttons]]
-          name = "搜索"
-          url = "/search/"
-
-        [[languages.zh-cn.params.profileMode.buttons]]
-          name = "关于"
-          url = "/about/"
-
-  [languages.en]
-    label = "English"
-    locale = "en-US"
-    direction = "ltr"
-    weight = 2
-    title = "ZenGeekLabs"
-
-    [languages.en.params]
-      description = "Notes on programming, tools, workflows, knowledge management, and methods worth keeping."
-
-      [languages.en.params.profileMode]
-        enabled = true
-        title = "ZenGeekLabs"
-        subtitle = "Write the experience down and keep the thinking visible. This space is for programming, tools, workflows, and reusable methods."
-        imageUrl = "/avatar-placeholder.svg"
-        imageTitle = "ZenGeekLabs Avatar"
-        imageWidth = 128
-        imageHeight = 128
-
-        [[languages.en.params.profileMode.buttons]]
-          name = "Read"
-          url = "/en/blog/"
-
-        [[languages.en.params.profileMode.buttons]]
-          name = "Archive"
-          url = "/en/archives/"
-
-        [[languages.en.params.profileMode.buttons]]
-          name = "Tags"
-          url = "/en/tags/"
-
-        [[languages.en.params.profileMode.buttons]]
-          name = "Search"
-          url = "/en/search/"
-
-        [[languages.en.params.profileMode.buttons]]
-          name = "About"
-          url = "/en/about/"
-
-      [[languages.en.params.socialIcons]]
-        name = "github"
-        url = "https://github.com/"
-
-      [[languages.en.params.socialIcons]]
-        name = "bilibili"
-        url = "https://www.bilibili.com/"
-
-      [[languages.en.params.socialIcons]]
-        name = "youtube"
-        url = "https://www.youtube.com/"
-
-      [[languages.en.params.socialIcons]]
-        name = "rss"
-        url = "/en/index.xml"
+  page = ["HTML"]
+  section = ["HTML", "RSS"]
+  taxonomy = ["HTML", "RSS"]
 
 [taxonomies]
   tag = "tags"
@@ -196,6 +31,176 @@ publishDir = "docs"
     startLevel = 2
     endLevel = 3
     ordered = false
+
+[params]
+  version = "1.0.2"
+  defaultTheme = "auto"
+  fingerprint = ""
+  dateFormat = "2006-01-02"
+  images = ["/avatar-placeholder.svg"]
+  description = "记录编程、工具、工作流、知识整理，以及那些值得长期复用的方法。"
+  keywords = ["博客", "Hugo", "编程", "工具", "工作流", "知识整理"]
+  mainSections = ["blog"]
+
+  [params.author]
+    name = "ZenGeekLabs"
+    link = "https://zengeeklabs.github.io/"
+    avatar = "/avatar-placeholder.svg"
+
+  [params.app]
+    title = "ZenGeekLabs"
+    noFavicon = false
+    svgFavicon = ""
+    iconColor = "#2e2e33"
+    tileColor = "#2e2e33"
+
+  [params.search]
+    enable = true
+    type = "fuse"
+    contentLength = 4000
+    placeholder = "搜索文章..."
+    maxResultLength = 10
+    snippetLength = 50
+    highlightTag = "em"
+    absoluteURL = false
+    [params.search.fuse]
+      isCaseSensitive = false
+      minMatchCharLength = 2
+      findAllMatches = false
+      location = 0
+      threshold = 0.1
+      distance = 100
+      ignoreLocation = true
+      useExtendedSearch = false
+      ignoreFieldNorm = false
+
+  [params.header]
+    themeChangeMode = "switch"
+    [params.header.title]
+      logo = ""
+      name = "ZenGeekLabs"
+      pre = ""
+      post = ""
+      typeit = false
+
+  [params.footer]
+    enable = true
+    custom = "内容优先，长期积累。"
+    hugo = false
+    hostedOn = ""
+    copyright = false
+    author = false
+    since = 2026
+    icp = ""
+    license = ""
+
+  [params.section]
+    paginate = 10
+    dateFormat = "01-02"
+    rss = 10
+
+  [params.list]
+    paginate = 10
+    dateFormat = "01-02"
+    rss = 10
+
+  [params.home]
+    rss = 10
+    [params.home.profile]
+      enable = true
+      gravatarEmail = ""
+      avatarURL = "/avatar-placeholder.svg"
+      avatarLinkURL = ""
+      title = "ZenGeekLabs"
+      subtitle = "把经验写下来，把思考留下来。这里记录编程、工具、工作流与那些值得长期复用的方法。"
+      typeit = false
+      social = true
+      disclaimer = ""
+    [params.home.posts]
+      enable = true
+      paginate = 10
+      imagePreview = false
+
+  [params.social]
+    RSS = true
+    [params.social.GitHub]
+      url = "https://github.com/"
+      title = "GitHub"
+    [params.social.Bilibili]
+      url = "https://www.bilibili.com/"
+      title = "Bilibili"
+    [params.social.Youtubecustom]
+      url = "https://www.youtube.com/"
+      title = "YouTube"
+
+  [params.page]
+    hiddenFromHomePage = false
+    hiddenFromSearch = false
+    twemoji = false
+    lightgallery = false
+    ruby = true
+    fraction = true
+    linkToMarkdown = false
+    linkToSource = ""
+    linkToEdit = ""
+    linkToReport = ""
+    rssFullText = false
+    seriesNavigation = false
+    enableLastMod = true
+    enableWordCount = true
+    enableReadingTime = true
+    [params.page.toc]
+      enable = true
+      keepStatic = false
+      auto = true
+    [params.page.code]
+      maxShownLines = 20
+      lineNos = true
+      wrap = false
+      header = true
+    [params.page.table]
+      sort = true
+    [params.page.share]
+      enable = false
+
+[languages]
+  [languages.zh-cn]
+    weight = 1
+    locale = "zh-CN"
+    label = "中文"
+    hasCJKLanguage = true
+    title = "ZenGeekLabs"
+    copyright = ""
+
+    [languages.zh-cn.params]
+      description = "记录编程、工具、工作流、知识整理，以及那些值得长期复用的方法。"
+      keywords = ["博客", "Hugo", "编程", "工具", "工作流", "知识整理"]
+      [languages.zh-cn.params.search]
+        placeholder = "搜索文章..."
+      [languages.zh-cn.params.home.profile]
+        title = "ZenGeekLabs"
+        subtitle = "把经验写下来，把思考留下来。这里记录编程、工具、工作流与那些值得长期复用的方法。"
+      [languages.zh-cn.params.footer]
+        custom = "内容优先，长期积累。"
+
+  [languages.en]
+    weight = 2
+    locale = "en-US"
+    label = "English"
+    hasCJKLanguage = false
+    title = "ZenGeekLabs"
+    copyright = ""
+
+    [languages.en.params]
+      description = "Notes on programming, tools, workflows, knowledge management, and methods worth keeping."
+      keywords = ["blog", "Hugo", "programming", "tools", "workflow", "knowledge management"]
+      [languages.en.params.search]
+        placeholder = "Search posts..."
+      [languages.en.params.home.profile]
+        title = "ZenGeekLabs"
+        subtitle = "Write the experience down and keep the thinking visible. This space is for programming, tools, workflows, and reusable methods."
+      [languages.en.params.footer]
+        custom = "Content first. Build for the long run."
 
 [[languages.zh-cn.menu.main]]
   name = "首页"
@@ -218,14 +223,9 @@ publishDir = "docs"
   weight = 30
 
 [[languages.zh-cn.menu.main]]
-  name = "搜索"
-  pageRef = "/search"
-  weight = 40
-
-[[languages.zh-cn.menu.main]]
   name = "关于"
   pageRef = "/about"
-  weight = 50
+  weight = 40
 
 [[languages.en.menu.main]]
   name = "Home"
@@ -248,11 +248,6 @@ publishDir = "docs"
   weight = 30
 
 [[languages.en.menu.main]]
-  name = "Search"
-  pageRef = "/search"
-  weight = 40
-
-[[languages.en.menu.main]]
   name = "About"
   pageRef = "/about"
-  weight = 50
+  weight = 40

@@ -1,19 +1,14 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
-  <channel>
-    <title>开始 on ZenGeekLabs</title>
-    <link>https://zengeeklabs.github.io/tags/%E5%BC%80%E5%A7%8B/</link>
-    <description>Recent content in 开始 on ZenGeekLabs</description>
-    <generator>Hugo</generator>
-    <language>zh-CN</language>
-    <lastBuildDate>Mon, 20 May 2024 08:00:00 +0800</lastBuildDate>
-    <atom:link href="https://zengeeklabs.github.io/tags/%E5%BC%80%E5%A7%8B/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>我的第一篇文章</title>
-      <link>https://zengeeklabs.github.io/blog/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/</link>
-      <pubDate>Mon, 20 May 2024 08:00:00 +0800</pubDate>
-      <guid>https://zengeeklabs.github.io/blog/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/</guid>
-      <description>博客的第一篇示例文章。</description>
-    </item>
-  </channel>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>开始 - 标签 - ZenGeekLabs</title>
+        <link>https://zengeeklabs.github.io/tags/%E5%BC%80%E5%A7%8B/</link>
+        <description>开始 - 标签 - ZenGeekLabs</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Mon, 20 May 2024 08:00:00 &#43;0800</lastBuildDate><atom:link href="https://zengeeklabs.github.io/tags/%E5%BC%80%E5%A7%8B/" rel="self" type="application/rss+xml" /><item>
+    <title>我的第一篇文章</title>
+    <link>https://zengeeklabs.github.io/blog/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/</link>
+    <pubDate>Mon, 20 May 2024 08:00:00 &#43;0800</pubDate><author>
+        <name>ZenGeekLabs</name>
+    </author><guid>https://zengeeklabs.github.io/blog/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/</guid>
+    <description><![CDATA[用一篇最小文章测试 Doks 博客布局和基础排版。]]></description>
+</item></channel>
 </rss>

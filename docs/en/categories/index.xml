@@ -1,47 +1,42 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
-  <channel>
-    <title>Categories on ZenGeekLabs</title>
-    <link>https://zengeeklabs.github.io/en/categories/</link>
-    <description>Recent content in Categories on ZenGeekLabs</description>
-    <generator>Hugo</generator>
-    <language>en-US</language>
-    <lastBuildDate>Thu, 18 Jul 2024 21:00:00 +0800</lastBuildDate>
-    <atom:link href="https://zengeeklabs.github.io/en/categories/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Reading</title>
-      <link>https://zengeeklabs.github.io/en/categories/reading/</link>
-      <pubDate>Thu, 18 Jul 2024 21:00:00 +0800</pubDate>
-      <guid>https://zengeeklabs.github.io/en/categories/reading/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Code</title>
-      <link>https://zengeeklabs.github.io/en/categories/code/</link>
-      <pubDate>Tue, 02 Jul 2024 10:20:00 +0800</pubDate>
-      <guid>https://zengeeklabs.github.io/en/categories/code/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Writing</title>
-      <link>https://zengeeklabs.github.io/en/categories/writing/</link>
-      <pubDate>Sat, 15 Jun 2024 20:15:00 +0800</pubDate>
-      <guid>https://zengeeklabs.github.io/en/categories/writing/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Notes</title>
-      <link>https://zengeeklabs.github.io/en/categories/notes/</link>
-      <pubDate>Sat, 08 Jun 2024 09:30:00 +0800</pubDate>
-      <guid>https://zengeeklabs.github.io/en/categories/notes/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Blog</title>
-      <link>https://zengeeklabs.github.io/en/categories/blog/</link>
-      <pubDate>Mon, 20 May 2024 08:00:00 +0800</pubDate>
-      <guid>https://zengeeklabs.github.io/en/categories/blog/</guid>
-      <description></description>
-    </item>
-  </channel>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Categories - Category - ZenGeekLabs</title>
+        <link>https://zengeeklabs.github.io/en/categories/</link>
+        <description>Categories - Category - ZenGeekLabs</description>
+        <generator>Hugo -- gohugo.io</generator><language>en-US</language><lastBuildDate>Thu, 18 Jul 2024 21:00:00 &#43;0800</lastBuildDate><atom:link href="https://zengeeklabs.github.io/en/categories/" rel="self" type="application/rss+xml" /><item>
+    <title>Reading</title>
+    <link>https://zengeeklabs.github.io/en/categories/reading/</link>
+    <pubDate>Thu, 18 Jul 2024 21:00:00 &#43;0800</pubDate><author>
+        <name>ZenGeekLabs</name>
+    </author><guid>https://zengeeklabs.github.io/en/categories/reading/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>Code</title>
+    <link>https://zengeeklabs.github.io/en/categories/code/</link>
+    <pubDate>Tue, 02 Jul 2024 10:20:00 &#43;0800</pubDate><author>
+        <name>ZenGeekLabs</name>
+    </author><guid>https://zengeeklabs.github.io/en/categories/code/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>Writing</title>
+    <link>https://zengeeklabs.github.io/en/categories/writing/</link>
+    <pubDate>Sat, 15 Jun 2024 20:15:00 &#43;0800</pubDate><author>
+        <name>ZenGeekLabs</name>
+    </author><guid>https://zengeeklabs.github.io/en/categories/writing/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>Notes</title>
+    <link>https://zengeeklabs.github.io/en/categories/notes/</link>
+    <pubDate>Sat, 08 Jun 2024 09:30:00 &#43;0800</pubDate><author>
+        <name>ZenGeekLabs</name>
+    </author><guid>https://zengeeklabs.github.io/en/categories/notes/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>Blog</title>
+    <link>https://zengeeklabs.github.io/en/categories/blog/</link>
+    <pubDate>Mon, 20 May 2024 08:00:00 &#43;0800</pubDate><author>
+        <name>ZenGeekLabs</name>
+    </author><guid>https://zengeeklabs.github.io/en/categories/blog/</guid>
+    <description><![CDATA[]]></description>
+</item></channel>
 </rss>

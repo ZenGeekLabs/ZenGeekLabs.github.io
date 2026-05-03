@@ -1,19 +1,14 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
-  <channel>
-    <title>写作 on ZenGeekLabs</title>
-    <link>https://zengeeklabs.github.io/tags/%E5%86%99%E4%BD%9C/</link>
-    <description>Recent content in 写作 on ZenGeekLabs</description>
-    <generator>Hugo</generator>
-    <language>zh-CN</language>
-    <lastBuildDate>Sat, 15 Jun 2024 20:15:00 +0800</lastBuildDate>
-    <atom:link href="https://zengeeklabs.github.io/tags/%E5%86%99%E4%BD%9C/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>把写作系统搭起来，比找下一个工具更重要</title>
-      <link>https://zengeeklabs.github.io/blog/%E6%8A%8A%E5%86%99%E4%BD%9C%E7%B3%BB%E7%BB%9F%E6%90%AD%E8%B5%B7%E6%9D%A5%E6%AF%94%E6%89%BE%E4%B8%8B%E4%B8%80%E4%B8%AA%E5%B7%A5%E5%85%B7%E6%9B%B4%E9%87%8D%E8%A6%81/</link>
-      <pubDate>Sat, 15 Jun 2024 20:15:00 +0800</pubDate>
-      <guid>https://zengeeklabs.github.io/blog/%E6%8A%8A%E5%86%99%E4%BD%9C%E7%B3%BB%E7%BB%9F%E6%90%AD%E8%B5%B7%E6%9D%A5%E6%AF%94%E6%89%BE%E4%B8%8B%E4%B8%80%E4%B8%AA%E5%B7%A5%E5%85%B7%E6%9B%B4%E9%87%8D%E8%A6%81/</guid>
-      <description>一篇测试长文，用来验证目录、长段落、列表和引用块在博客中的阅读体验。</description>
-    </item>
-  </channel>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>写作 - 标签 - ZenGeekLabs</title>
+        <link>https://zengeeklabs.github.io/tags/%E5%86%99%E4%BD%9C/</link>
+        <description>写作 - 标签 - ZenGeekLabs</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Sat, 15 Jun 2024 20:15:00 &#43;0800</lastBuildDate><atom:link href="https://zengeeklabs.github.io/tags/%E5%86%99%E4%BD%9C/" rel="self" type="application/rss+xml" /><item>
+    <title>把写作系统搭起来，比找下一个工具更重要</title>
+    <link>https://zengeeklabs.github.io/blog/%E6%8A%8A%E5%86%99%E4%BD%9C%E7%B3%BB%E7%BB%9F%E6%90%AD%E8%B5%B7%E6%9D%A5%E6%AF%94%E6%89%BE%E4%B8%8B%E4%B8%80%E4%B8%AA%E5%B7%A5%E5%85%B7%E6%9B%B4%E9%87%8D%E8%A6%81/</link>
+    <pubDate>Sat, 15 Jun 2024 20:15:00 &#43;0800</pubDate><author>
+        <name>ZenGeekLabs</name>
+    </author><guid>https://zengeeklabs.github.io/blog/%E6%8A%8A%E5%86%99%E4%BD%9C%E7%B3%BB%E7%BB%9F%E6%90%AD%E8%B5%B7%E6%9D%A5%E6%AF%94%E6%89%BE%E4%B8%8B%E4%B8%80%E4%B8%AA%E5%B7%A5%E5%85%B7%E6%9B%B4%E9%87%8D%E8%A6%81/</guid>
+    <description><![CDATA[真正让写作持续发生的，不是工具更新，而是一套稳定的写作系统。]]></description>
+</item></channel>
 </rss>

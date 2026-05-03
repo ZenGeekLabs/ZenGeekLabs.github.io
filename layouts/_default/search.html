@@ -1,0 +1,18 @@
+{{- define "title" -}}
+  {{- .Title -}} - {{- .Site.Title -}}
+{{- end -}}
+
+{{- define "content" -}}
+  <div class="page single special tw:print:w-full! tw:print:max-w-none! tw:print:m-0! tw:print:p-0!">
+    <h1 class="single-title">{{ .Title }}</h1>
+    <div class="content" id="content">
+      {{- if .Content -}}
+        {{- .Content -}}
+      {{- else -}}
+        <p>{{ .Params.summary }}</p>
+      {{- end -}}
+      <p>请直接使用页面顶部的搜索框开始搜索。</p>
+      <p>Use the search box in the header to search the site.</p>
+    </div>
+  </div>
+{{- end -}}

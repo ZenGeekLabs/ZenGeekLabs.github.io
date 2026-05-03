@@ -1,19 +1,14 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
-  <channel>
-    <title>笔记 on ZenGeekLabs</title>
-    <link>https://zengeeklabs.github.io/categories/%E7%AC%94%E8%AE%B0/</link>
-    <description>Recent content in 笔记 on ZenGeekLabs</description>
-    <generator>Hugo</generator>
-    <language>zh-CN</language>
-    <lastBuildDate>Sat, 08 Jun 2024 09:30:00 +0800</lastBuildDate>
-    <atom:link href="https://zengeeklabs.github.io/categories/%E7%AC%94%E8%AE%B0/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>工具箱不是越多越好，关键是能不能留下方法</title>
-      <link>https://zengeeklabs.github.io/blog/%E5%B7%A5%E5%85%B7%E7%AE%B1%E4%B8%8D%E6%98%AF%E8%B6%8A%E5%A4%9A%E8%B6%8A%E5%A5%BD%E5%85%B3%E9%94%AE%E6%98%AF%E8%83%BD%E4%B8%8D%E8%83%BD%E7%95%99%E4%B8%8B%E6%96%B9%E6%B3%95/</link>
-      <pubDate>Sat, 08 Jun 2024 09:30:00 +0800</pubDate>
-      <guid>https://zengeeklabs.github.io/blog/%E5%B7%A5%E5%85%B7%E7%AE%B1%E4%B8%8D%E6%98%AF%E8%B6%8A%E5%A4%9A%E8%B6%8A%E5%A5%BD%E5%85%B3%E9%94%AE%E6%98%AF%E8%83%BD%E4%B8%8D%E8%83%BD%E7%95%99%E4%B8%8B%E6%96%B9%E6%B3%95/</guid>
-      <description>写给工具爱好者的一篇短笔记：真正有价值的不是收藏了多少工具，而是能不能沉淀出稳定的方法。</description>
-    </item>
-  </channel>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>笔记 - 分类 - ZenGeekLabs</title>
+        <link>https://zengeeklabs.github.io/categories/%E7%AC%94%E8%AE%B0/</link>
+        <description>笔记 - 分类 - ZenGeekLabs</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Sat, 08 Jun 2024 09:30:00 &#43;0800</lastBuildDate><atom:link href="https://zengeeklabs.github.io/categories/%E7%AC%94%E8%AE%B0/" rel="self" type="application/rss+xml" /><item>
+    <title>工具箱不是越多越好，关键是能不能留下方法</title>
+    <link>https://zengeeklabs.github.io/blog/%E5%B7%A5%E5%85%B7%E7%AE%B1%E4%B8%8D%E6%98%AF%E8%B6%8A%E5%A4%9A%E8%B6%8A%E5%A5%BD%E5%85%B3%E9%94%AE%E6%98%AF%E8%83%BD%E4%B8%8D%E8%83%BD%E7%95%99%E4%B8%8B%E6%96%B9%E6%B3%95/</link>
+    <pubDate>Sat, 08 Jun 2024 09:30:00 &#43;0800</pubDate><author>
+        <name>ZenGeekLabs</name>
+    </author><guid>https://zengeeklabs.github.io/blog/%E5%B7%A5%E5%85%B7%E7%AE%B1%E4%B8%8D%E6%98%AF%E8%B6%8A%E5%A4%9A%E8%B6%8A%E5%A5%BD%E5%85%B3%E9%94%AE%E6%98%AF%E8%83%BD%E4%B8%8D%E8%83%BD%E7%95%99%E4%B8%8B%E6%96%B9%E6%B3%95/</guid>
+    <description><![CDATA[工具可以一直换，但方法应该慢慢稳定下来。]]></description>
+</item></channel>
 </rss>
