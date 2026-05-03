@@ -124,7 +124,7 @@
 
   .paginav {
     display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-columns: 1fr;
     gap: 0.8rem;
     align-items: stretch;
   }
@@ -135,21 +135,16 @@
     min-height: 100%;
   }
 
+  .paginav .next {
+    margin-inline-start: 0;
+    text-align: left;
+  }
+
   .paginav span:not(.title) {
+    display: block;
     overflow-wrap: anywhere;
     word-break: break-word;
     hyphens: auto;
-  }
-
-  @media screen and (max-width: 768px) {
-    .paginav {
-      grid-template-columns: 1fr;
-    }
-
-    .paginav .next {
-      margin-inline-start: 0;
-      text-align: left;
-    }
   }
 </style>
 <meta property="og:url" content="https://zengeeklabs.github.io/en/about/">

@@ -124,7 +124,7 @@
 
   .paginav {
     display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-columns: 1fr;
     gap: 0.8rem;
     align-items: stretch;
   }
@@ -135,21 +135,16 @@
     min-height: 100%;
   }
 
+  .paginav .next {
+    margin-inline-start: 0;
+    text-align: left;
+  }
+
   .paginav span:not(.title) {
+    display: block;
     overflow-wrap: anywhere;
     word-break: break-word;
     hyphens: auto;
-  }
-
-  @media screen and (max-width: 768px) {
-    .paginav {
-      grid-template-columns: 1fr;
-    }
-
-    .paginav .next {
-      margin-inline-start: 0;
-      text-align: left;
-    }
   }
 </style>
 <meta property="og:url" content="https://zengeeklabs.github.io/blog/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0%E4%B8%8D%E4%B8%80%E5%AE%9A%E8%A6%81%E5%AE%8C%E6%95%B4%E5%85%88%E7%95%99%E4%B8%8B%E5%8F%AF%E6%A3%80%E7%B4%A2%E7%9A%84%E9%94%9A%E7%82%B9/">
