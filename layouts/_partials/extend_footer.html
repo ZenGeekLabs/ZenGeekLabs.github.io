@@ -1,0 +1,61 @@
+<script>
+  (function () {
+    const modes = ["auto", "light", "dark"];
+    const labels = {
+      auto: { short: "A", full: "当前主题：自动" },
+      light: { short: "L", full: "当前主题：浅色" },
+      dark: { short: "D", full: "当前主题：深色" }
+    };
+
+    function readMode() {
+      const saved = localStorage.getItem("pref-theme");
+      return modes.includes(saved) ? saved : "auto";
+    }
+
+    function resolveTheme(mode) {
+      if (mode === "light" || mode === "dark") return mode;
+      return window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+    }
+
+    function syncToggle(mode) {
+      const button = document.getElementById("theme-toggle");
+      if (!button) return;
+      button.title = labels[mode].full;
+      button.setAttribute("aria-label", labels[mode].full);
+    }
+
+    function applyMode(mode) {
+      document.documentElement.dataset.theme = resolveTheme(mode);
+      localStorage.setItem("pref-theme", mode);
+      syncToggle(mode);
+    }
+
+    function cycleMode() {
+      const current = readMode();
+      const next = modes[(modes.indexOf(current) + 1) % modes.length];
+      applyMode(next);
+    }
+
+    document.addEventListener("DOMContentLoaded", function () {
+      const button = document.getElementById("theme-toggle");
+      if (button) {
+        button.addEventListener("click", function (event) {
+          event.preventDefault();
+          event.stopImmediatePropagation();
+          cycleMode();
+        }, true);
+      }
+
+      const media = window.matchMedia("(prefers-color-scheme: dark)");
+      if (typeof media.addEventListener === "function") {
+        media.addEventListener("change", function () {
+          if (readMode() === "auto") {
+            applyMode("auto");
+          }
+        });
+      }
+
+      syncToggle(readMode());
+    });
+  })();
+</script>

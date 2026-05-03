@@ -1,0 +1,8 @@
+.env
+.netlify
+.DS_Store
+.cache
+.hugo_build.lock
+hugo_stats.json
+public
+resources
