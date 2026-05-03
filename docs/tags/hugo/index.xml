@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Hugo on ZenGeekLabs</title>
+    <link>https://zengeeklabs.github.io/tags/hugo/</link>
+    <description>Recent content in Hugo on ZenGeekLabs</description>
+    <generator>Hugo</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Tue, 02 Jul 2024 10:20:00 +0800</lastBuildDate>
+    <atom:link href="https://zengeeklabs.github.io/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>我的第一篇文章</title>
+      <link>https://zengeeklabs.github.io/blog/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/</link>
+      <pubDate>Mon, 20 May 2024 08:00:00 +0800</pubDate>
+      <guid>https://zengeeklabs.github.io/blog/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/</guid>
+      <description>博客的第一篇示例文章。</description>
+    </item>
+    <item>
+      <title>几个常用的 Hugo 片段，够我把博客继续搭下去</title>
+      <link>https://zengeeklabs.github.io/blog/%E5%87%A0%E4%B8%AA%E5%B8%B8%E7%94%A8%E7%9A%84-hugo-%E7%89%87%E6%AE%B5%E5%A4%9F%E6%88%91%E6%8A%8A%E5%8D%9A%E5%AE%A2%E7%BB%A7%E7%BB%AD%E6%90%AD%E4%B8%8B%E5%8E%BB/</link>
+      <pubDate>Tue, 02 Jul 2024 10:20:00 +0800</pubDate>
+      <guid>https://zengeeklabs.github.io/blog/%E5%87%A0%E4%B8%AA%E5%B8%B8%E7%94%A8%E7%9A%84-hugo-%E7%89%87%E6%AE%B5%E5%A4%9F%E6%88%91%E6%8A%8A%E5%8D%9A%E5%AE%A2%E7%BB%A7%E7%BB%AD%E6%90%AD%E4%B8%8B%E5%8E%BB/</guid>
+      <description>一篇测试代码块和配置展示的文章，用来验证等宽字体、代码高亮和段落间距。</description>
+    </item>
+  </channel>
+</rss>

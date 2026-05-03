@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Blog on ZenGeekLabs</title>
+    <link>https://zengeeklabs.github.io/en/categories/blog/</link>
+    <description>Recent content in Blog on ZenGeekLabs</description>
+    <generator>Hugo</generator>
+    <language>en-US</language>
+    <lastBuildDate>Mon, 20 May 2024 08:00:00 +0800</lastBuildDate>
+    <atom:link href="https://zengeeklabs.github.io/en/categories/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My First Post</title>
+      <link>https://zengeeklabs.github.io/en/blog/my-first-post/</link>
+      <pubDate>Mon, 20 May 2024 08:00:00 +0800</pubDate>
+      <guid>https://zengeeklabs.github.io/en/blog/my-first-post/</guid>
+      <description>The first sample post on this blog.</description>
+    </item>
+  </channel>
+</rss>

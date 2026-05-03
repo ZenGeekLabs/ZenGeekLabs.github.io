@@ -5,6 +5,7 @@ defaultContentLanguage = "zh-cn"
 defaultContentLanguageInSubdir = false
 enableRobotsTXT = true
 pagination.pagerSize = 10
+publishDir = "docs"
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]

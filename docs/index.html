@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="zh-cn" dir="ltr" data-theme="auto">
+
+<head>
+	<meta name="generator" content="Hugo 0.161.1"><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>ZenGeekLabs</title>
+<meta name="keywords" content="博客, Hugo, 编程, 工具, 工作流, 知识整理">
+<meta name="description" content="ZenGeekLabs 是一个以知识积累为主的个人博客，持续记录编程、工具、工作流、知识整理，以及那些值得长期复用的方法。">
+<meta name="author" content="ZenGeekLabs">
+<link rel="canonical" href="https://zengeeklabs.github.io/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.a1a1b118b3e83435265dc39da18e54244bcc0e5481d1d034aadc0c899c51e15c.css" integrity="sha256-oaGxGLPoNDUmXcOdoY5UJEvMDlSB0dA0qtwMiZxR4Vw=" rel="preload stylesheet" as="style">
+<link rel="icon" href="https://zengeeklabs.github.io/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://zengeeklabs.github.io/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://zengeeklabs.github.io/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://zengeeklabs.github.io/apple-touch-icon.png">
+<link rel="mask-icon" href="https://zengeeklabs.github.io/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" type="application/rss+xml" href="https://zengeeklabs.github.io/index.xml" title="rss">
+<link rel="alternate" type="application/json" href="https://zengeeklabs.github.io/index.json" title="json">
+<link rel="alternate" hreflang="zh-cn" href="https://zengeeklabs.github.io/">
+<link rel="alternate" hreflang="en" href="https://zengeeklabs.github.io/en/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+                color-scheme: dark;
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .toc {
+                background: var(--entry);
+            }
+        }
+
+    </style>
+</noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else if (localStorage.getItem("pref-theme") === "light") {
+       document.querySelector("html").dataset.theme = 'light';
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else {
+        document.querySelector("html").dataset.theme = 'light';
+    }
+
+</script><style>
+  #theme-toggle {
+    width: 2.5rem;
+    min-width: 2.5rem;
+    padding: 0;
+  }
+
+  .profile .profile_inner > span {
+    max-width: 36rem;
+  }
+
+  .profile .buttons {
+    flex-wrap: wrap;
+  }
+</style>
+<meta property="og:url" content="https://zengeeklabs.github.io/">
+  <meta property="og:site_name" content="ZenGeekLabs">
+  <meta property="og:title" content="ZenGeekLabs">
+  <meta property="og:description" content="ZenGeekLabs 是一个以知识积累为主的个人博客，持续记录编程、工具、工作流、知识整理，以及那些值得长期复用的方法。">
+  <meta property="og:locale" content="zh_CN">
+  <meta property="og:type" content="website">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="ZenGeekLabs">
+  <meta name="twitter:description" content="ZenGeekLabs 是一个以知识积累为主的个人博客，持续记录编程、工具、工作流、知识整理，以及那些值得长期复用的方法。">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "ZenGeekLabs",
+  "url": "https://zengeeklabs.github.io/",
+  "description": "记录编程、工具、工作流、知识整理，以及那些值得长期复用的方法。",
+  "logo": "https://zengeeklabs.github.io/favicon.ico",
+  "sameAs": [
+      "https://github.com/", "https://www.bilibili.com/", "https://www.youtube.com/", "/index.xml"
+  ]
+}
+</script>
+</head>
+<body class="list" id="top">
+    <header class="header">
+    <nav class="header-nav">
+        <div class="logo">
+            <a href="https://zengeeklabs.github.io/" accesskey="h" title="ZenGeekLabs (Alt + H)">
+                <img src="https://zengeeklabs.github.io/apple-touch-icon.png" alt="" aria-label="logo"
+                    height="28">ZenGeekLabs</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" class="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg class="moon" xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg class="sun" xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button><span class="nav-sep">|</span>
+                    <ul class="lang-menu">
+                        <li>
+                            <a href="https://zengeeklabs.github.io/en/" title="English"
+                                aria-label="English">English</a>
+                        </li>
+                    </ul>
+            </div>
+        </div>
+        <ul id="menu" class="menu">
+            <li>
+                <a href="https://zengeeklabs.github.io/blog/" title="文章">
+                    <span>文章</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://zengeeklabs.github.io/archives/" title="归档">
+                    <span>归档</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://zengeeklabs.github.io/tags/" title="标签">
+                    <span>标签</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://zengeeklabs.github.io/search/" title="搜索">
+                    <span>搜索</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://zengeeklabs.github.io/about/" title="关于">
+                    <span>关于</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main"><div class="profile">
+    <div class="profile_inner">
+        <img draggable="false" src="https://zengeeklabs.github.io/avatar-placeholder.svg" alt="ZenGeekLabs Avatar" title="ZenGeekLabs Avatar"
+            height="128" width="128" />
+        <h1>ZenGeekLabs</h1>
+        <span>把经验写下来，把思考留下来。这里记录编程、工具、工作流与那些值得长期复用的方法。</span><div class="social-icons" >
+    <a href="https://github.com/" target="_blank" rel="noopener noreferrer me"
+        title="Github">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+    stroke-linecap="round" stroke-linejoin="round">
+    <path
+        d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+    </path>
+</svg>
+    </a>
+    <a href="https://www.bilibili.com/" target="_blank" rel="noopener noreferrer me"
+        title="Bilibili">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+    stroke-linecap="round">
+    <rect x="1.3333" y="6" width="21.333" height="15.333" rx="4" ry="4" />
+    <path d="m8 12.4v1.2" />
+    <path d="m16 12.4v1.2" />
+    <path d="m5.8853 2.6667 2.6667 2.6667" />
+    <path d="m18.115 2.6667-2.6667 2.6667" />
+</svg>
+    </a>
+    <a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer me"
+        title="Youtube">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+    stroke-linecap="round" stroke-linejoin="round">
+    <path
+        d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z">
+    </path>
+    <polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"></polygon>
+</svg>
+    </a>
+    <a href="/index.xml" target="_blank" rel="noopener noreferrer me"
+        title="Rss">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+    stroke-linecap="round" stroke-linejoin="round">
+    <path d="M4 11a9 9 0 0 1 9 9" />
+    <path d="M4 4a16 16 0 0 1 16 16" />
+    <circle cx="5" cy="19" r="1" />
+</svg>
+    </a>
+</div>
+
+        <div class="buttons">
+            <a class="button" href="/blog/" rel="noopener" title="阅读">
+                <span class="button-inner">
+                    阅读
+                </span>
+            </a>
+            <a class="button" href="/archives/" rel="noopener" title="归档">
+                <span class="button-inner">
+                    归档
+                </span>
+            </a>
+            <a class="button" href="/tags/" rel="noopener" title="标签">
+                <span class="button-inner">
+                    标签
+                </span>
+            </a>
+            <a class="button" href="/search/" rel="noopener" title="搜索">
+                <span class="button-inner">
+                    搜索
+                </span>
+            </a>
+            <a class="button" href="/about/" rel="noopener" title="关于">
+                <span class="button-inner">
+                    关于
+                </span>
+            </a>
+        </div>
+    </div>
+</div>
+
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2026 <a href="https://zengeeklabs.github.io/">ZenGeekLabs</a></span> · 
+        内容优先，长期积累。 · 
+
+    
+    
+    <span>
+        Powered by
+        <a href="https://gohugo.io/?utm_source=papermod" rel="noopener" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" id="top-link" class="top-link hidden" aria-label="go to top" title="Go to Top (Alt + G)" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+        stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevrons-up">
+        <polyline points="17 11 12 6 7 11"></polyline>
+        <polyline points="17 18 12 13 7 18"></polyline>
+    </svg>
+</a><script>
+  (function () {
+    const modes = ["auto", "light", "dark"];
+    const labels = {
+      auto: { short: "A", full: "当前主题：自动" },
+      light: { short: "L", full: "当前主题：浅色" },
+      dark: { short: "D", full: "当前主题：深色" }
+    };
+
+    function readMode() {
+      const saved = localStorage.getItem("pref-theme");
+      return modes.includes(saved) ? saved : "auto";
+    }
+
+    function resolveTheme(mode) {
+      if (mode === "light" || mode === "dark") return mode;
+      return window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+    }
+
+    function syncToggle(mode) {
+      const button = document.getElementById("theme-toggle");
+      if (!button) return;
+      button.title = labels[mode].full;
+      button.setAttribute("aria-label", labels[mode].full);
+    }
+
+    function applyMode(mode) {
+      document.documentElement.dataset.theme = resolveTheme(mode);
+      localStorage.setItem("pref-theme", mode);
+      syncToggle(mode);
+    }
+
+    function cycleMode() {
+      const current = readMode();
+      const next = modes[(modes.indexOf(current) + 1) % modes.length];
+      applyMode(next);
+    }
+
+    document.addEventListener("DOMContentLoaded", function () {
+      const button = document.getElementById("theme-toggle");
+      if (button) {
+        button.addEventListener("click", function (event) {
+          event.preventDefault();
+          event.stopImmediatePropagation();
+          cycleMode();
+        }, true);
+      }
+
+      const media = window.matchMedia("(prefers-color-scheme: dark)");
+      if (typeof media.addEventListener === "function") {
+        media.addEventListener("change", function () {
+          if (readMode() === "auto") {
+            applyMode("auto");
+          }
+        });
+      }
+
+      syncToggle(readMode());
+    });
+  })();
+</script>
+
+
+<script>
+    let menu = document.getElementById('menu');
+    if (menu) {
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var toplink = document.getElementById("top-link");
+    window.onscroll = function () {
+        const scrollThreshold = window.innerHeight;
+        if (document.body.scrollTop > scrollThreshold || document.documentElement.scrollTop > scrollThreshold) {
+            toplink.classList.remove("hidden");
+        } else {
+            toplink.classList.add("hidden");
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            html.dataset.theme = 'dark';
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>

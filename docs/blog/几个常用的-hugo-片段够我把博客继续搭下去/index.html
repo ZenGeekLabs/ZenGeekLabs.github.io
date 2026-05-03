@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="zh-cn" dir="ltr" data-theme="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>几个常用的 Hugo 片段，够我把博客继续搭下去 | ZenGeekLabs</title>
+<meta name="keywords" content="Hugo, 代码, 片段">
+<meta name="description" content="一篇测试代码块和配置展示的文章，用来验证等宽字体、代码高亮和段落间距。">
+<meta name="author" content="ZenGeekLabs">
+<link rel="canonical" href="https://zengeeklabs.github.io/blog/%E5%87%A0%E4%B8%AA%E5%B8%B8%E7%94%A8%E7%9A%84-hugo-%E7%89%87%E6%AE%B5%E5%A4%9F%E6%88%91%E6%8A%8A%E5%8D%9A%E5%AE%A2%E7%BB%A7%E7%BB%AD%E6%90%AD%E4%B8%8B%E5%8E%BB/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.a1a1b118b3e83435265dc39da18e54244bcc0e5481d1d034aadc0c899c51e15c.css" integrity="sha256-oaGxGLPoNDUmXcOdoY5UJEvMDlSB0dA0qtwMiZxR4Vw=" rel="preload stylesheet" as="style">
+<link rel="icon" href="https://zengeeklabs.github.io/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://zengeeklabs.github.io/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://zengeeklabs.github.io/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://zengeeklabs.github.io/apple-touch-icon.png">
+<link rel="mask-icon" href="https://zengeeklabs.github.io/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="zh-cn" href="https://zengeeklabs.github.io/blog/%E5%87%A0%E4%B8%AA%E5%B8%B8%E7%94%A8%E7%9A%84-hugo-%E7%89%87%E6%AE%B5%E5%A4%9F%E6%88%91%E6%8A%8A%E5%8D%9A%E5%AE%A2%E7%BB%A7%E7%BB%AD%E6%90%AD%E4%B8%8B%E5%8E%BB/">
+<link rel="alternate" hreflang="en" href="https://zengeeklabs.github.io/en/blog/a-few-hugo-snippets-that-are-enough-to-keep-this-blog-growing/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+                color-scheme: dark;
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .toc {
+                background: var(--entry);
+            }
+        }
+
+    </style>
+</noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else if (localStorage.getItem("pref-theme") === "light") {
+       document.querySelector("html").dataset.theme = 'light';
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else {
+        document.querySelector("html").dataset.theme = 'light';
+    }
+
+</script><style>
+  #theme-toggle {
+    width: 2.5rem;
+    min-width: 2.5rem;
+    padding: 0;
+  }
+
+  .profile .profile_inner > span {
+    max-width: 36rem;
+  }
+
+  .profile .buttons {
+    flex-wrap: wrap;
+  }
+</style>
+<meta property="og:url" content="https://zengeeklabs.github.io/blog/%E5%87%A0%E4%B8%AA%E5%B8%B8%E7%94%A8%E7%9A%84-hugo-%E7%89%87%E6%AE%B5%E5%A4%9F%E6%88%91%E6%8A%8A%E5%8D%9A%E5%AE%A2%E7%BB%A7%E7%BB%AD%E6%90%AD%E4%B8%8B%E5%8E%BB/">
+  <meta property="og:site_name" content="ZenGeekLabs">
+  <meta property="og:title" content="几个常用的 Hugo 片段，够我把博客继续搭下去">
+  <meta property="og:description" content="一篇测试代码块和配置展示的文章，用来验证等宽字体、代码高亮和段落间距。">
+  <meta property="og:locale" content="zh_CN">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="blog">
+    <meta property="article:published_time" content="2024-07-02T10:20:00+08:00">
+    <meta property="article:modified_time" content="2024-07-02T10:20:00+08:00">
+    <meta property="article:tag" content="Hugo">
+    <meta property="article:tag" content="代码">
+    <meta property="article:tag" content="片段">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="几个常用的 Hugo 片段，够我把博客继续搭下去">
+  <meta name="twitter:description" content="一篇测试代码块和配置展示的文章，用来验证等宽字体、代码高亮和段落间距。">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "文章",
+      "item": "https://zengeeklabs.github.io/blog/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "几个常用的 Hugo 片段，够我把博客继续搭下去",
+      "item": "https://zengeeklabs.github.io/blog/%E5%87%A0%E4%B8%AA%E5%B8%B8%E7%94%A8%E7%9A%84-hugo-%E7%89%87%E6%AE%B5%E5%A4%9F%E6%88%91%E6%8A%8A%E5%8D%9A%E5%AE%A2%E7%BB%A7%E7%BB%AD%E6%90%AD%E4%B8%8B%E5%8E%BB/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "几个常用的 Hugo 片段，够我把博客继续搭下去",
+  "name": "几个常用的 Hugo 片段，够我把博客继续搭下去",
+  "description": "一篇测试代码块和配置展示的文章，用来验证等宽字体、代码高亮和段落间距。",
+  "keywords": [
+    "Hugo", "代码", "片段"
+  ],
+  "articleBody": "首页文章列表 有时候只想拿到 blog 目录下的文章：\n{{ $posts := where site.RegularPages \"Section\" \"blog\" }} {{ range first 5 $posts }} \u003ca href=\"{{ .RelPermalink }}\"\u003e{{ .Title }}\u003c/a\u003e {{ end }} 标签链接 把标签转换成可点击地址：\n{{ range .Params.tags }} \u003ca href=\"{{ (printf \"/tags/%s/\" (. | urlize)) | relURL }}\"\u003e{{ . }}\u003c/a\u003e {{ end }} 配置里的一个最小菜单 [[main]] name = \"文章\" url = \"/blog/\" weight = 20 为什么要留下这些片段 因为一段能复用的配置，比临时搜索一次答案更有长期价值。\n",
+  "wordCount" : "61",
+  "inLanguage": "zh-cn",
+  "datePublished": "2024-07-02T10:20:00+08:00",
+  "dateModified": "2024-07-02T10:20:00+08:00",
+  "author":{
+    "@type": "Person",
+    "name": "ZenGeekLabs"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://zengeeklabs.github.io/blog/%E5%87%A0%E4%B8%AA%E5%B8%B8%E7%94%A8%E7%9A%84-hugo-%E7%89%87%E6%AE%B5%E5%A4%9F%E6%88%91%E6%8A%8A%E5%8D%9A%E5%AE%A2%E7%BB%A7%E7%BB%AD%E6%90%AD%E4%B8%8B%E5%8E%BB/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "ZenGeekLabs",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://zengeeklabs.github.io/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+<body id="top">
+    <header class="header">
+    <nav class="header-nav">
+        <div class="logo">
+            <a href="https://zengeeklabs.github.io/" accesskey="h" title="ZenGeekLabs (Alt + H)">
+                <img src="https://zengeeklabs.github.io/apple-touch-icon.png" alt="" aria-label="logo"
+                    height="28">ZenGeekLabs</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" class="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg class="moon" xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg class="sun" xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button><span class="nav-sep">|</span>
+                    <ul class="lang-menu">
+                        <li>
+                            <a href="https://zengeeklabs.github.io/en/" title="English"
+                                aria-label="English">English</a>
+                        </li>
+                    </ul>
+            </div>
+        </div>
+        <ul id="menu" class="menu">
+            <li>
+                <a href="https://zengeeklabs.github.io/blog/" title="文章">
+                    <span>文章</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://zengeeklabs.github.io/archives/" title="归档">
+                    <span>归档</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://zengeeklabs.github.io/tags/" title="标签">
+                    <span>标签</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://zengeeklabs.github.io/search/" title="搜索">
+                    <span>搜索</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://zengeeklabs.github.io/about/" title="关于">
+                    <span>关于</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <nav class="breadcrumbs" role="navigation" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
+                <polyline points="9 18 15 12 9 6"></polyline>
+            </svg>
+            <a href="/blog/">文章</a>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+        stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
+        <polyline points="9 18 15 12 9 6"></polyline>
+    </svg>
+</nav>
+    <h1 class="post-title entry-hint-parent">
+      几个常用的 Hugo 片段，够我把博客继续搭下去
+    </h1>
+    <div class="post-description">
+      一篇测试代码块和配置展示的文章，用来验证等宽字体、代码高亮和段落间距。
+    </div>
+    <div class="post-meta">
+
+<span title='2024-07-02 10:20:00 +0800 CST'>2024-07-02</span>&nbsp;·&nbsp;<span>1 min</span>&nbsp;·&nbsp;<span>61 words</span>&nbsp;·&nbsp;<span>ZenGeekLabs</span>&nbsp;|&nbsp;<span>Translations:</span>
+    <ul class="i18n_list">
+        <li>
+            <a href="https://zengeeklabs.github.io/en/blog/a-few-hugo-snippets-that-are-enough-to-keep-this-blog-growing/">English</a>
+        </li>
+    </ul>
+
+</div>
+  </header> <details class="toc" >
+    <summary accesskey="c" title="(Alt + C)">
+        <span class="title">Table of Contents</span>
+    </summary>
+
+    <div class="inner"><ul>
+            <li>
+                <a href="#%e9%a6%96%e9%a1%b5%e6%96%87%e7%ab%a0%e5%88%97%e8%a1%a8" aria-label="首页文章列表">首页文章列表</a></li>
+            <li>
+                <a href="#%e6%a0%87%e7%ad%be%e9%93%be%e6%8e%a5" aria-label="标签链接">标签链接</a></li>
+            <li>
+                <a href="#%e9%85%8d%e7%bd%ae%e9%87%8c%e7%9a%84%e4%b8%80%e4%b8%aa%e6%9c%80%e5%b0%8f%e8%8f%9c%e5%8d%95" aria-label="配置里的一个最小菜单">配置里的一个最小菜单</a></li>
+            <li>
+                <a href="#%e4%b8%ba%e4%bb%80%e4%b9%88%e8%a6%81%e7%95%99%e4%b8%8b%e8%bf%99%e4%ba%9b%e7%89%87%e6%ae%b5" aria-label="为什么要留下这些片段">为什么要留下这些片段</a>
+            </li>
+        </ul>
+    </div>
+</details>
+
+  <div class="post-content md-content"><h2 id="首页文章列表">首页文章列表<a hidden class="anchor" aria-hidden="true" href="#首页文章列表">#</a></h2>
+<p>有时候只想拿到 <code>blog</code> 目录下的文章：</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-go-html-template" data-lang="go-html-template"><span style="display:flex;"><span><span style="color:#75715e">{{</span> <span style="color:#a6e22e">$posts</span> <span style="color:#f92672">:=</span> <span style="color:#a6e22e">where</span> <span style="color:#a6e22e">site</span><span style="color:#a6e22e">.RegularPages</span> <span style="color:#e6db74">&#34;Section&#34;</span> <span style="color:#e6db74">&#34;blog&#34;</span> <span style="color:#75715e">}}</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">{{</span> <span style="color:#66d9ef">range</span> <span style="color:#a6e22e">first</span> <span style="color:#a6e22e">5</span> <span style="color:#a6e22e">$posts</span> <span style="color:#75715e">}}</span>
+</span></span><span style="display:flex;"><span>  &lt;<span style="color:#f92672">a</span> <span style="color:#a6e22e">href</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;</span><span style="color:#75715e">{{</span> <span style="color:#a6e22e">.RelPermalink</span> <span style="color:#75715e">}}</span><span style="color:#e6db74">&#34;</span>&gt;<span style="color:#75715e">{{</span> <span style="color:#a6e22e">.Title</span> <span style="color:#75715e">}}</span>&lt;/<span style="color:#f92672">a</span>&gt;
+</span></span><span style="display:flex;"><span><span style="color:#75715e">{{</span> <span style="color:#66d9ef">end</span> <span style="color:#75715e">}}</span>
+</span></span></code></pre></div><h2 id="标签链接">标签链接<a hidden class="anchor" aria-hidden="true" href="#标签链接">#</a></h2>
+<p>把标签转换成可点击地址：</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-go-html-template" data-lang="go-html-template"><span style="display:flex;"><span><span style="color:#75715e">{{</span> <span style="color:#66d9ef">range</span> <span style="color:#a6e22e">.Params.tags</span> <span style="color:#75715e">}}</span>
+</span></span><span style="display:flex;"><span>  &lt;<span style="color:#f92672">a</span> <span style="color:#a6e22e">href</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;</span><span style="color:#75715e">{{</span> <span style="color:#f92672">(</span><span style="color:#66d9ef">printf</span> <span style="color:#e6db74">&#34;/tags/%s/&#34;</span> <span style="color:#f92672">(</span><span style="color:#a6e22e">.</span> <span style="color:#f92672">|</span> <span style="color:#a6e22e">urlize</span><span style="color:#f92672">))</span> <span style="color:#f92672">|</span> <span style="color:#a6e22e">relURL</span> <span style="color:#75715e">}}</span><span style="color:#e6db74">&#34;</span>&gt;<span style="color:#75715e">{{</span> <span style="color:#a6e22e">.</span> <span style="color:#75715e">}}</span>&lt;/<span style="color:#f92672">a</span>&gt;
+</span></span><span style="display:flex;"><span><span style="color:#75715e">{{</span> <span style="color:#66d9ef">end</span> <span style="color:#75715e">}}</span>
+</span></span></code></pre></div><h2 id="配置里的一个最小菜单">配置里的一个最小菜单<a hidden class="anchor" aria-hidden="true" href="#配置里的一个最小菜单">#</a></h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-toml" data-lang="toml"><span style="display:flex;"><span>[[<span style="color:#a6e22e">main</span>]]
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">name</span> = <span style="color:#e6db74">&#34;文章&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">url</span> = <span style="color:#e6db74">&#34;/blog/&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">weight</span> = <span style="color:#ae81ff">20</span>
+</span></span></code></pre></div><h2 id="为什么要留下这些片段">为什么要留下这些片段<a hidden class="anchor" aria-hidden="true" href="#为什么要留下这些片段">#</a></h2>
+<p>因为一段能复用的配置，比临时搜索一次答案更有长期价值。</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="https://zengeeklabs.github.io/tags/hugo/">Hugo</a></li>
+      <li><a href="https://zengeeklabs.github.io/tags/%E4%BB%A3%E7%A0%81/">代码</a></li>
+      <li><a href="https://zengeeklabs.github.io/tags/%E7%89%87%E6%AE%B5/">片段</a></li>
+    </ul>
+<nav class="paginav">
+  <a class="prev" href="https://zengeeklabs.github.io/blog/%E6%8A%8A%E5%86%99%E4%BD%9C%E7%B3%BB%E7%BB%9F%E6%90%AD%E8%B5%B7%E6%9D%A5%E6%AF%94%E6%89%BE%E4%B8%8B%E4%B8%80%E4%B8%AA%E5%B7%A5%E5%85%B7%E6%9B%B4%E9%87%8D%E8%A6%81/">
+    <span class="title">« </span>
+    <span>把写作系统搭起来，比找下一个工具更重要</span>
+  </a>
+  <a class="next" href="https://zengeeklabs.github.io/blog/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0%E4%B8%8D%E4%B8%80%E5%AE%9A%E8%A6%81%E5%AE%8C%E6%95%B4%E5%85%88%E7%95%99%E4%B8%8B%E5%8F%AF%E6%A3%80%E7%B4%A2%E7%9A%84%E9%94%9A%E7%82%B9/">
+    <span class="title"> »</span>
+    <span>读书笔记不一定要完整，先留下可检索的锚点</span>
+  </a>
+</nav>
+
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2026 <a href="https://zengeeklabs.github.io/">ZenGeekLabs</a></span> · 
+        内容优先，长期积累。 · 
+
+    
+    
+    <span>
+        Powered by
+        <a href="https://gohugo.io/?utm_source=papermod" rel="noopener" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" id="top-link" class="top-link hidden" aria-label="go to top" title="Go to Top (Alt + G)" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+        stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevrons-up">
+        <polyline points="17 11 12 6 7 11"></polyline>
+        <polyline points="17 18 12 13 7 18"></polyline>
+    </svg>
+</a><script>
+  (function () {
+    const modes = ["auto", "light", "dark"];
+    const labels = {
+      auto: { short: "A", full: "当前主题：自动" },
+      light: { short: "L", full: "当前主题：浅色" },
+      dark: { short: "D", full: "当前主题：深色" }
+    };
+
+    function readMode() {
+      const saved = localStorage.getItem("pref-theme");
+      return modes.includes(saved) ? saved : "auto";
+    }
+
+    function resolveTheme(mode) {
+      if (mode === "light" || mode === "dark") return mode;
+      return window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+    }
+
+    function syncToggle(mode) {
+      const button = document.getElementById("theme-toggle");
+      if (!button) return;
+      button.title = labels[mode].full;
+      button.setAttribute("aria-label", labels[mode].full);
+    }
+
+    function applyMode(mode) {
+      document.documentElement.dataset.theme = resolveTheme(mode);
+      localStorage.setItem("pref-theme", mode);
+      syncToggle(mode);
+    }
+
+    function cycleMode() {
+      const current = readMode();
+      const next = modes[(modes.indexOf(current) + 1) % modes.length];
+      applyMode(next);
+    }
+
+    document.addEventListener("DOMContentLoaded", function () {
+      const button = document.getElementById("theme-toggle");
+      if (button) {
+        button.addEventListener("click", function (event) {
+          event.preventDefault();
+          event.stopImmediatePropagation();
+          cycleMode();
+        }, true);
+      }
+
+      const media = window.matchMedia("(prefers-color-scheme: dark)");
+      if (typeof media.addEventListener === "function") {
+        media.addEventListener("change", function () {
+          if (readMode() === "auto") {
+            applyMode("auto");
+          }
+        });
+      }
+
+      syncToggle(readMode());
+    });
+  })();
+</script>
+
+
+<script>
+    let menu = document.getElementById('menu');
+    if (menu) {
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var toplink = document.getElementById("top-link");
+    window.onscroll = function () {
+        const scrollThreshold = window.innerHeight;
+        if (document.body.scrollTop > scrollThreshold || document.documentElement.scrollTop > scrollThreshold) {
+            toplink.classList.remove("hidden");
+        } else {
+            toplink.classList.add("hidden");
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            html.dataset.theme = 'dark';
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = 'copy';
+
+        function copyingDone() {
+            copybutton.innerHTML = 'copied!';
+            setTimeout(() => {
+                copybutton.innerHTML = 'copy';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
+</script>
+</body>
+
+</html>
