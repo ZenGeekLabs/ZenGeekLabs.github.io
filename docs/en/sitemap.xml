@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://zengeeklabs.github.io/en/blog/my-first-post/</loc>
+    <loc>https://zengeeklabs.github.io/en/blog/hello-world/</loc>
     <lastmod>2024-05-20T08:00:00+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
@@ -12,10 +12,10 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="https://zengeeklabs.github.io/en/blog/my-first-post/"
+                href="https://zengeeklabs.github.io/en/blog/hello-world/"
                 />
   </url><url>
-    <loc>https://zengeeklabs.github.io/en/blog/a-bigger-toolbox-is-not-the-goal.-methods-are./</loc>
+    <loc>https://zengeeklabs.github.io/en/blog/toolbox-thinking/</loc>
     <lastmod>2024-06-08T09:30:00+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
@@ -25,10 +25,10 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="https://zengeeklabs.github.io/en/blog/a-bigger-toolbox-is-not-the-goal.-methods-are./"
+                href="https://zengeeklabs.github.io/en/blog/toolbox-thinking/"
                 />
   </url><url>
-    <loc>https://zengeeklabs.github.io/en/blog/building-a-writing-system-matters-more-than-finding-the-next-tool/</loc>
+    <loc>https://zengeeklabs.github.io/en/blog/writing-system-notes/</loc>
     <lastmod>2024-06-15T20:15:00+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
@@ -38,10 +38,10 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="https://zengeeklabs.github.io/en/blog/building-a-writing-system-matters-more-than-finding-the-next-tool/"
+                href="https://zengeeklabs.github.io/en/blog/writing-system-notes/"
                 />
   </url><url>
-    <loc>https://zengeeklabs.github.io/en/blog/a-few-hugo-snippets-that-are-enough-to-keep-this-blog-growing/</loc>
+    <loc>https://zengeeklabs.github.io/en/blog/hugo-snippets/</loc>
     <lastmod>2024-07-02T10:20:00+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
@@ -51,10 +51,10 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="https://zengeeklabs.github.io/en/blog/a-few-hugo-snippets-that-are-enough-to-keep-this-blog-growing/"
+                href="https://zengeeklabs.github.io/en/blog/hugo-snippets/"
                 />
   </url><url>
-    <loc>https://zengeeklabs.github.io/en/blog/reading-notes-do-not-need-to-be-complete.-leave-searchable-anchors-first./</loc>
+    <loc>https://zengeeklabs.github.io/en/blog/reading-notes/</loc>
     <lastmod>2024-07-18T21:00:00+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
@@ -64,7 +64,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="https://zengeeklabs.github.io/en/blog/reading-notes-do-not-need-to-be-complete.-leave-searchable-anchors-first./"
+                href="https://zengeeklabs.github.io/en/blog/reading-notes/"
                 />
   </url><url>
     <loc>https://zengeeklabs.github.io/en/blog/</loc>

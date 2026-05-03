@@ -1,5 +1,6 @@
 ---
 title: "Building a Writing System Matters More Than Finding the Next Tool"
+slug: "writing-system-notes"
 description: "A longer sample post for testing table of contents, long paragraphs, lists, and blockquotes."
 summary: "What keeps writing sustainable is not constant tool upgrades, but a stable writing system."
 date: 2024-06-15T20:15:00+08:00

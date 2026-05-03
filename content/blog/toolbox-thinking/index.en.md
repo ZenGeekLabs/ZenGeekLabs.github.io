@@ -1,5 +1,6 @@
 ---
 title: "A Bigger Toolbox Is Not the Goal. Methods Are."
+slug: "toolbox-thinking"
 description: "A short note for tool lovers: the real value is not how many tools you collect, but whether you can keep the methods they taught you."
 summary: "Tools can keep changing. Your methods should slowly become more stable."
 date: 2024-06-08T09:30:00+08:00

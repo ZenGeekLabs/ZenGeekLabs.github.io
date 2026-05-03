@@ -10,9 +10,9 @@
     <atom:link href="https://zengeeklabs.github.io/en/tags/start/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>My First Post</title>
-      <link>https://zengeeklabs.github.io/en/blog/my-first-post/</link>
+      <link>https://zengeeklabs.github.io/en/blog/hello-world/</link>
       <pubDate>Mon, 20 May 2024 08:00:00 +0800</pubDate>
-      <guid>https://zengeeklabs.github.io/en/blog/my-first-post/</guid>
+      <guid>https://zengeeklabs.github.io/en/blog/hello-world/</guid>
       <description>The first sample post on this blog.</description>
     </item>
   </channel>

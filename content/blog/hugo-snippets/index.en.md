@@ -1,5 +1,6 @@
 ---
 title: "A Few Hugo Snippets That Are Enough to Keep This Blog Growing"
+slug: "hugo-snippets"
 description: "A sample post for testing code blocks, monospace fonts, and configuration snippets."
 summary: "Keeping reusable Hugo snippets around saves a lot of repeat searching."
 date: 2024-07-02T10:20:00+08:00

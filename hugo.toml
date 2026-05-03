@@ -3,6 +3,7 @@ title = "ZenGeekLabs"
 theme = "PaperMod"
 defaultContentLanguage = "zh-cn"
 defaultContentLanguageInSubdir = false
+disableDefaultLanguageRedirect = true
 enableRobotsTXT = true
 pagination.pagerSize = 10
 publishDir = "docs"
