@@ -66,6 +66,10 @@
     }
 
 </script><style>
+  .logo-switches {
+    gap: 0.15rem;
+  }
+
   #theme-toggle {
     width: 2.5rem;
     min-width: 2.5rem;
@@ -78,6 +82,11 @@
     list-style: none;
   }
 
+  .lang-menu li {
+    display: inline-flex;
+    align-items: center;
+  }
+
   .lang-switch {
     display: inline-flex;
     align-items: center;
@@ -85,8 +94,25 @@
     width: 2.5rem;
     min-width: 2.5rem;
     min-height: 2.5rem;
-    padding: 0;
+    padding: 0 !important;
     color: var(--primary);
+    font-size: 0;
+    line-height: 1;
+    background: transparent !important;
+    border-radius: 0;
+  }
+
+  .lang-switch:hover,
+  .lang-switch:focus,
+  .lang-switch:active {
+    background: transparent !important;
+    color: var(--primary);
+  }
+
+  .lang-switch svg {
+    width: 17px;
+    height: 17px;
+    display: block;
   }
 
   .profile .profile_inner > span {
@@ -197,7 +223,7 @@
                 </button>
                     <ul class="lang-menu">
                         <li>
-                            <a class="lang-switch" href="https://zengeeklabs.github.io/en/" title="English"
+                            <a class="lang-switch" href="https://zengeeklabs.github.io/en/"
                                 aria-label="English">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
                                     <circle cx="12" cy="12" r="10"></circle>
