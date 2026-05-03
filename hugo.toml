@@ -41,8 +41,6 @@ publishDir = "docs"
 
   [params.label]
     text = "ZenGeekLabs"
-    icon = "/apple-touch-icon.png"
-    iconHeight = 28
 
   [params.profileMode]
     enabled = true
@@ -200,6 +198,11 @@ publishDir = "docs"
     ordered = false
 
 [[languages.zh-cn.menu.main]]
+  name = "首页"
+  pageRef = "/"
+  weight = 5
+
+[[languages.zh-cn.menu.main]]
   name = "文章"
   pageRef = "/blog"
   weight = 10
@@ -223,6 +226,11 @@ publishDir = "docs"
   name = "关于"
   pageRef = "/about"
   weight = 50
+
+[[languages.en.menu.main]]
+  name = "Home"
+  pageRef = "/"
+  weight = 5
 
 [[languages.en.menu.main]]
   name = "Posts"
