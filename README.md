@@ -29,6 +29,12 @@ hugo server --config hugo.toml,hugo.dev.toml
 http://127.0.0.1:1313
 ```
 
+如果你用的是 VS Code，也可以直接运行任务：
+
+- `New Blog Post`
+- `Preview Blog`
+- `Build Blog`
+
 ## 写文章
 
 新建一篇文章：
@@ -74,6 +80,8 @@ scripts/add-asset.sh my-new-post /path/to/image.png
 ```bash
 scripts/add-asset.sh my-new-post /path/to/image.png --move
 ```
+
+如果你在 VS Code 里安装了推荐扩展 `Paste Image`，图片会按工作区设置默认保存到当前文章目录下的 `assets/` 中。
 
 ## 发布流程
 

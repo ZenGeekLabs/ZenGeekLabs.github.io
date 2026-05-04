@@ -1,0 +1,43 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "New Blog Post",
+      "type": "shell",
+      "command": "${workspaceFolder}/scripts/new-post.sh",
+      "args": [
+        "${input:postSlug}"
+      ],
+      "problemMatcher": []
+    },
+    {
+      "label": "Preview Blog",
+      "type": "shell",
+      "command": "hugo",
+      "args": [
+        "server",
+        "--config",
+        "hugo.toml,hugo.dev.toml"
+      ],
+      "isBackground": true,
+      "problemMatcher": []
+    },
+    {
+      "label": "Build Blog",
+      "type": "shell",
+      "command": "hugo",
+      "args": [
+        "--config",
+        "hugo.toml"
+      ],
+      "problemMatcher": []
+    }
+  ],
+  "inputs": [
+    {
+      "id": "postSlug",
+      "type": "promptString",
+      "description": "New blog post folder name, for example: ai-tool-workflow"
+    }
+  ]
+}

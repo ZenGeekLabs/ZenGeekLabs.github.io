@@ -1,0 +1,15 @@
+{
+  "pasteImage.path": "${currentFileDir}/assets",
+  "pasteImage.basePath": "${currentFileDir}",
+  "pasteImage.forceUnixStyleSeparator": true,
+  "pasteImage.insertPattern": "![${imageFileNameWithoutExt}](${imageFilePath})",
+  "pasteImage.showFilePathConfirmInputBox": false,
+  "files.exclude": {
+    "**/.DS_Store": true,
+    ".hugo_build.lock": true,
+    "resources": true
+  },
+  "search.exclude": {
+    "resources": true
+  }
+}
