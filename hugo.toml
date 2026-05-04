@@ -195,7 +195,7 @@ publishDir = "docs"
         placeholder = "Search posts..."
       [languages.en.params.home.profile]
         avatarLinkURL = "/en/"
-        subtitle = "Write the experience down and keep the thinking visible. This space is for programming, tools, workflows, and reusable methods."
+        subtitle = "Welcome to my personal blog 🎉"
         typeit = true
       [languages.en.params.footer]
         custom = "Content first. Build for the long run."

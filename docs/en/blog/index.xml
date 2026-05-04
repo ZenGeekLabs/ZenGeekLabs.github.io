@@ -38,5 +38,12 @@
         <name>ZenGeekLabs</name>
     </author><guid>https://zengeeklabs.github.io/en/blog/reading-notes/</guid>
     <description><![CDATA[Searchable anchors are easier to sustain than perfect summaries.]]></description>
+</item><item>
+    <title>Format Showcase: TOC, Tables, Code Blocks, and Admonitions in One Post</title>
+    <link>https://zengeeklabs.github.io/en/blog/format-showcase/</link>
+    <pubDate>Sun, 03 May 2026 16:00:00 &#43;0800</pubDate><author>
+        <name>ZenGeekLabs</name>
+    </author><guid>https://zengeeklabs.github.io/en/blog/format-showcase/</guid>
+    <description><![CDATA[Put the common formats into one article so we can quickly verify the TOC, typography, and component styling.]]></description>
 </item></channel>
 </rss>

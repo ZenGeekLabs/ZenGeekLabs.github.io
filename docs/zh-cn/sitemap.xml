@@ -56,8 +56,24 @@
                     hreflang="zh-cn"
                     href="https://zengeeklabs.github.io/blog/"
                     /></url><url>
-            <loc>https://zengeeklabs.github.io/blog/format-showcase/</loc><lastmod>2026-05-03T16:00:00&#43;08:00</lastmod></url><url>
-            <loc>https://zengeeklabs.github.io/tags/doit/</loc><lastmod>2026-05-03T16:00:00&#43;08:00</lastmod></url><url>
+            <loc>https://zengeeklabs.github.io/blog/format-showcase/</loc><lastmod>2026-05-03T16:00:00&#43;08:00</lastmod><xhtml:link
+                        rel="alternate"
+                        hreflang="en"
+                        href="https://zengeeklabs.github.io/en/blog/format-showcase/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="zh-cn"
+                    href="https://zengeeklabs.github.io/blog/format-showcase/"
+                    /></url><url>
+            <loc>https://zengeeklabs.github.io/tags/doit/</loc><lastmod>2026-05-03T16:00:00&#43;08:00</lastmod><xhtml:link
+                        rel="alternate"
+                        hreflang="en"
+                        href="https://zengeeklabs.github.io/en/tags/doit/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="zh-cn"
+                    href="https://zengeeklabs.github.io/tags/doit/"
+                    /></url><url>
             <loc>https://zengeeklabs.github.io/tags/hugo/</loc><lastmod>2026-05-03T16:00:00&#43;08:00</lastmod><xhtml:link
                         rel="alternate"
                         hreflang="en"
