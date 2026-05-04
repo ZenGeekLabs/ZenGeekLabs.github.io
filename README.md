@@ -2,6 +2,19 @@
 
 一个基于 `Hugo` 和 `DoIt` 的个人博客。
 
+## 你平时主要会用到的地方
+
+- `content/blog/`：写文章
+- `static/`：放图标、图片等静态资源
+- `hugo.toml`：站点配置
+- `README.md`：开发和发文说明
+
+## 哪些目录先不要碰
+
+- `docs/`：发布产物，Hugo 自动生成，不手改
+- `themes/DoIt-main/`：主题本体，除非你确定在改主题源码
+- `layouts/`：本地覆盖模板，只有需要改站点结构或样式时才动
+
 ## 本地开发
 
 启动本地预览：
@@ -18,34 +31,60 @@ http://127.0.0.1:1313
 
 ## 写文章
 
-新建一篇博客文章：
+新建一篇文章：
 
 ```bash
 hugo new blog/my-new-post/index.md
 ```
 
-如果以后要补英文版，对应文件放在同一个目录下：
+文章默认会使用：
+
+- `archetypes/blog.md`
+
+新建后你主要编辑的是：
+
+- `content/blog/my-new-post/index.md`
+
+如果以后要补英文版，对应文件放在同一目录下：
 
 ```bash
 content/blog/my-new-post/index.en.md
 ```
 
+## 发布流程
+
+1. 本地写文章
+2. 本地预览确认
+3. 把文章里的 `draft` 改成 `false`
+4. 生成发布文件
+5. 提交并推送到 GitHub
+
+生成发布文件：
+
+```bash
+hugo --config hugo.toml
+```
+
+提交并推送：
+
+```bash
+git add -A
+git commit -m "Publish new post"
+git push origin main
+```
+
 ## 目录结构
 
-- `content/` 站点内容
-- `content/blog/` 博客文章
-- `content/about*.md` 关于页
-- `content/archives*.md` 归档页
-- `content/search*.md` 搜索页
-- `content/tags/`、`content/categories/` 标签与分类页
-- `layouts/` 本地模板覆盖
-- `static/` 站点静态资源
-- `themes/DoIt-main/` 当前主题
-- `archetypes/` 新文章模板
-- `docs/` GitHub Pages 发布目录
-- `hugo.toml` 主配置
-- `hugo.dev.toml` 本地开发覆盖配置
-
-## 部署
-
-当前仓库通过 GitHub Pages 发布 `docs/` 目录内容。
+- `archetypes/`：新文章模板
+- `content/`：站点内容
+- `content/blog/`：博客文章
+- `content/about*.md`：关于页
+- `content/archives*.md`：归档页
+- `content/search*.md`：搜索页
+- `content/tags/`、`content/categories/`：标签与分类页
+- `layouts/`：本地模板覆盖
+- `static/`：站点静态资源
+- `themes/DoIt-main/`：当前主题
+- `docs/`：GitHub Pages 发布目录
+- `hugo.toml`：主配置
+- `hugo.dev.toml`：本地开发覆盖配置
