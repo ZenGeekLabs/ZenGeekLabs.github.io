@@ -1,8 +1,8 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>Reading - Category - ZenGeekLabs</title>
+        <title>Reading - Category - ZenGeekLabs blog</title>
         <link>https://zengeeklabs.github.io/en/categories/reading/</link>
-        <description>Reading - Category - ZenGeekLabs</description>
+        <description>Reading - Category - ZenGeekLabs blog</description>
         <generator>Hugo -- gohugo.io</generator><language>en-US</language><lastBuildDate>Thu, 18 Jul 2024 21:00:00 &#43;0800</lastBuildDate><atom:link href="https://zengeeklabs.github.io/en/categories/reading/" rel="self" type="application/rss+xml" /><item>
     <title>Reading Notes Do Not Need to Be Complete. Leave Searchable Anchors First.</title>
     <link>https://zengeeklabs.github.io/en/blog/reading-notes/</link>

@@ -1,6 +1,6 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>ZenGeekLabs</title>
+        <title>ZenGeekLabs blog</title>
         <link>https://zengeeklabs.github.io/en/</link>
         <description>Notes on programming, tools, workflows, knowledge management, and methods worth keeping.</description>
         <generator>Hugo -- gohugo.io</generator><language>en-US</language><lastBuildDate>Wed, 01 May 2024 10:00:00 &#43;0800</lastBuildDate>

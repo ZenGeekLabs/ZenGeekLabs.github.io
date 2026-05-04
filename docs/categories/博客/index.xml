@@ -1,8 +1,8 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>博客 - 分类 - ZenGeekLabs</title>
+        <title>博客 - 分类 - ZenGeekLabs blog</title>
         <link>https://zengeeklabs.github.io/categories/%E5%8D%9A%E5%AE%A2/</link>
-        <description>博客 - 分类 - ZenGeekLabs</description>
+        <description>博客 - 分类 - ZenGeekLabs blog</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Mon, 20 May 2024 08:00:00 &#43;0800</lastBuildDate><atom:link href="https://zengeeklabs.github.io/categories/%E5%8D%9A%E5%AE%A2/" rel="self" type="application/rss+xml" /><item>
     <title>我的第一篇文章</title>
     <link>https://zengeeklabs.github.io/blog/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/</link>

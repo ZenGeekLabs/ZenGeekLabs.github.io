@@ -1,5 +1,5 @@
 baseURL = "https://zengeeklabs.github.io/"
-title = "ZenGeekLabs"
+title = "ZenGeekLabs blog"
 theme = "DoIt-main"
 defaultContentLanguage = "zh-cn"
 defaultContentLanguageInSubdir = false
@@ -54,7 +54,7 @@ publishDir = "docs"
     avatar = "/avatar-placeholder.svg"
 
   [params.app]
-    title = "ZenGeekLabs"
+    title = "ZenGeekLabs blog"
     noFavicon = false
     svgFavicon = ""
     iconColor = "#2e2e33"
@@ -84,7 +84,7 @@ publishDir = "docs"
     themeChangeMode = "select"
     [params.header.title]
       logo = ""
-      name = "ZenGeekLabs"
+      name = "ZenGeekLabs blog"
       pre = ""
       post = ""
       typeit = true
@@ -117,7 +117,7 @@ publishDir = "docs"
       gravatarEmail = ""
       avatarURL = "/avatar-placeholder.svg"
       avatarLinkURL = "/"
-      title = "ZenGeekLabs blog"
+      title = "ZenGeekLabs"
       subtitle = "欢迎来到我的个人博客 🎉"
       typeit = true
       social = true
@@ -169,7 +169,7 @@ publishDir = "docs"
     locale = "zh-CN"
     label = "中文"
     hasCJKLanguage = true
-    title = "ZenGeekLabs"
+    title = "ZenGeekLabs blog"
     copyright = ""
 
     [languages.zh-cn.params]
@@ -185,7 +185,7 @@ publishDir = "docs"
     locale = "en-US"
     label = "English"
     hasCJKLanguage = false
-    title = "ZenGeekLabs"
+    title = "ZenGeekLabs blog"
     copyright = ""
 
     [languages.en.params]
