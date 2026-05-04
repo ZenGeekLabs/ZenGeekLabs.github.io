@@ -8,7 +8,13 @@
       "args": [
         "${input:postSlug}"
       ],
-      "problemMatcher": []
+      "problemMatcher": [],
+      "presentation": {
+        "reveal": "never",
+        "panel": "shared",
+        "clear": true,
+        "close": true
+      }
     },
     {
       "label": "Preview Blog",
@@ -20,7 +26,12 @@
         "hugo.toml,hugo.dev.toml"
       ],
       "isBackground": true,
-      "problemMatcher": []
+      "problemMatcher": [],
+      "presentation": {
+        "reveal": "always",
+        "panel": "shared",
+        "clear": true
+      }
     },
     {
       "label": "Build Blog",
@@ -30,7 +41,29 @@
         "--config",
         "hugo.toml"
       ],
-      "problemMatcher": []
+      "problemMatcher": [],
+      "presentation": {
+        "reveal": "never",
+        "panel": "shared",
+        "clear": true,
+        "close": true
+      }
+    },
+    {
+      "label": "Add Asset To Post",
+      "type": "shell",
+      "command": "${workspaceFolder}/scripts/add-asset.sh",
+      "args": [
+        "${input:assetPostSlug}",
+        "${input:assetSourcePath}"
+      ],
+      "problemMatcher": [],
+      "presentation": {
+        "reveal": "never",
+        "panel": "shared",
+        "clear": true,
+        "close": true
+      }
     }
   ],
   "inputs": [
@@ -38,6 +71,16 @@
       "id": "postSlug",
       "type": "promptString",
       "description": "New blog post folder name, for example: ai-tool-workflow"
+    },
+    {
+      "id": "assetPostSlug",
+      "type": "promptString",
+      "description": "Target blog post folder name, for example: ai-tool-workflow"
+    },
+    {
+      "id": "assetSourcePath",
+      "type": "promptString",
+      "description": "Absolute path of the local file to copy into this post's assets folder"
     }
   ]
 }

@@ -47,15 +47,6 @@
                     hreflang="en"
                     href="https://zengeeklabs.github.io/en/blog/reading-notes/"
                     /></url><url>
-            <loc>https://zengeeklabs.github.io/en/blog/</loc><lastmod>2026-05-03T21:30:00&#43;08:00</lastmod><xhtml:link
-                        rel="alternate"
-                        hreflang="zh-cn"
-                        href="https://zengeeklabs.github.io/blog/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="en"
-                    href="https://zengeeklabs.github.io/en/blog/"
-                    /></url><url>
             <loc>https://zengeeklabs.github.io/en/blog/format-showcase/</loc><lastmod>2026-05-03T16:00:00&#43;08:00</lastmod><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
@@ -68,7 +59,7 @@
             <loc>https://zengeeklabs.github.io/en/blog/folder-structure-demo/</loc><lastmod>2026-05-04T09:00:00&#43;08:00</lastmod><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
-                        href="https://zengeeklabs.github.io/blog/folder-structure-demo/"
+                        href="https://zengeeklabs.github.io/blog/folder/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="en"
@@ -100,6 +91,15 @@
                     rel="alternate"
                     hreflang="en"
                     href="https://zengeeklabs.github.io/en/tags/hugo/"
+                    /></url><url>
+            <loc>https://zengeeklabs.github.io/en/blog/</loc><lastmod>2026-05-04T09:00:00&#43;08:00</lastmod><xhtml:link
+                        rel="alternate"
+                        hreflang="zh-cn"
+                        href="https://zengeeklabs.github.io/blog/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="https://zengeeklabs.github.io/en/blog/"
                     /></url><url>
             <loc>https://zengeeklabs.github.io/en/tags/structure/</loc><lastmod>2026-05-04T09:00:00&#43;08:00</lastmod></url><url>
             <loc>https://zengeeklabs.github.io/en/tags/</loc><lastmod>2026-05-04T09:00:00&#43;08:00</lastmod><xhtml:link

@@ -32,6 +32,7 @@ http://127.0.0.1:1313
 如果你用的是 VS Code，也可以直接运行任务：
 
 - `New Blog Post`
+- `Add Asset To Post`
 - `Preview Blog`
 - `Build Blog`
 
@@ -82,6 +83,16 @@ scripts/add-asset.sh my-new-post /path/to/image.png --move
 ```
 
 如果你在 VS Code 里安装了推荐扩展 `Paste Image`，图片会按工作区设置默认保存到当前文章目录下的 `assets/` 中。
+
+注意：
+
+- 这只对**在 Markdown 编辑器里执行 Paste Image 命令**生效
+- 如果你是把已经存在的图片文件直接拖进资源管理器，VS Code 不会自动替你改放进 `assets/`
+- 如果截图已经先保存成了本地文件，最稳的是运行任务 `Add Asset To Post`，或者直接用：
+
+```bash
+scripts/add-asset.sh my-new-post /absolute/path/to/image.png
+```
 
 ## 发布流程
 

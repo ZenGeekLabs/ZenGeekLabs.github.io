@@ -4,24 +4,25 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="robots" content="noodp" ><title>几个常用的 Hugo 片段，够我把博客继续搭下去 - ZenGeekLabs blog</title><meta name="Description" content="一篇测试代码块和配置展示的文章，用来验证等宽字体、代码高亮和段落间距。"><meta property="og:url" content="https://zengeeklabs.github.io/blog/%E5%87%A0%E4%B8%AA%E5%B8%B8%E7%94%A8%E7%9A%84-hugo-%E7%89%87%E6%AE%B5%E5%A4%9F%E6%88%91%E6%8A%8A%E5%8D%9A%E5%AE%A2%E7%BB%A7%E7%BB%AD%E6%90%AD%E4%B8%8B%E5%8E%BB/">
+    <meta name="robots" content="noodp" ><title>工程化文章目录示例：一篇文章、一个文件夹、一个 assets - ZenGeekLabs blog</title><meta name="Description" content="用一篇测试文章展示更工程化的 Hugo 文章目录结构，包括 index.md、index.en.md 和 assets 目录。"><meta property="og:url" content="https://zengeeklabs.github.io/blog/folder/">
   <meta property="og:site_name" content="ZenGeekLabs blog">
-  <meta property="og:title" content="几个常用的 Hugo 片段，够我把博客继续搭下去">
-  <meta property="og:description" content="一篇测试代码块和配置展示的文章，用来验证等宽字体、代码高亮和段落间距。">
+  <meta property="og:title" content="工程化文章目录示例：一篇文章、一个文件夹、一个 assets">
+  <meta property="og:description" content="用一篇测试文章展示更工程化的 Hugo 文章目录结构，包括 index.md、index.en.md 和 assets 目录。">
   <meta property="og:locale" content="zh_CN">
   <meta property="og:type" content="article">
     <meta property="article:section" content="blog">
-    <meta property="article:published_time" content="2024-07-02T10:20:00+08:00">
-    <meta property="article:modified_time" content="2024-07-02T10:20:00+08:00">
+    <meta property="article:published_time" content="2026-05-04T09:00:00+08:00">
+    <meta property="article:modified_time" content="2026-05-04T09:00:00+08:00">
+    <meta property="article:tag" content="结构">
+    <meta property="article:tag" content="Assets">
     <meta property="article:tag" content="Hugo">
-    <meta property="article:tag" content="代码">
-    <meta property="article:tag" content="片段">
+    <meta property="article:tag" content="工作流">
     <meta property="og:image" content="https://zengeeklabs.github.io/avatar-placeholder.svg">
 
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:image" content="https://zengeeklabs.github.io/avatar-placeholder.svg">
-  <meta name="twitter:title" content="几个常用的 Hugo 片段，够我把博客继续搭下去">
-  <meta name="twitter:description" content="一篇测试代码块和配置展示的文章，用来验证等宽字体、代码高亮和段落间距。">
+  <meta name="twitter:title" content="工程化文章目录示例：一篇文章、一个文件夹、一个 assets">
+  <meta name="twitter:description" content="用一篇测试文章展示更工程化的 Hugo 文章目录结构，包括 index.md、index.en.md 和 assets 目录。">
 <meta name="application-name" content="ZenGeekLabs blog">
 <meta name="apple-mobile-web-app-title" content="ZenGeekLabs blog">
 
@@ -29,21 +30,21 @@
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
         <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#2e2e33">
 
-<link rel="canonical" href="https://zengeeklabs.github.io/blog/%E5%87%A0%E4%B8%AA%E5%B8%B8%E7%94%A8%E7%9A%84-hugo-%E7%89%87%E6%AE%B5%E5%A4%9F%E6%88%91%E6%8A%8A%E5%8D%9A%E5%AE%A2%E7%BB%A7%E7%BB%AD%E6%90%AD%E4%B8%8B%E5%8E%BB/" ><link rel="prev" href="https://zengeeklabs.github.io/blog/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0%E4%B8%8D%E4%B8%80%E5%AE%9A%E8%A6%81%E5%AE%8C%E6%95%B4%E5%85%88%E7%95%99%E4%B8%8B%E5%8F%AF%E6%A3%80%E7%B4%A2%E7%9A%84%E9%94%9A%E7%82%B9/" ><link rel="next" href="https://zengeeklabs.github.io/blog/%E6%8A%8A%E5%86%99%E4%BD%9C%E7%B3%BB%E7%BB%9F%E6%90%AD%E8%B5%B7%E6%9D%A5%E6%AF%94%E6%89%BE%E4%B8%8B%E4%B8%80%E4%B8%AA%E5%B7%A5%E5%85%B7%E6%9B%B4%E9%87%8D%E8%A6%81/" >
+<link rel="canonical" href="https://zengeeklabs.github.io/blog/folder/" ><link rel="next" href="https://zengeeklabs.github.io/blog/format-showcase/" >
 <link rel="stylesheet" href="/css/main.min.css"><link rel="stylesheet" href="/css/style.min.css"><script type="application/ld+json">{"@context": "https://schema.org","@type": "BlogPosting",
-        "headline": "几个常用的 Hugo 片段，够我把博客继续搭下去",
+        "headline": "工程化文章目录示例：一篇文章、一个文件夹、一个 assets",
         "inLanguage": "zh-CN",
         "mainEntityOfPage": {
             "@type": "WebPage",
-            "@id": "https://zengeeklabs.github.io/blog/%E5%87%A0%E4%B8%AA%E5%B8%B8%E7%94%A8%E7%9A%84-hugo-%E7%89%87%E6%AE%B5%E5%A4%9F%E6%88%91%E6%8A%8A%E5%8D%9A%E5%AE%A2%E7%BB%A7%E7%BB%AD%E6%90%AD%E4%B8%8B%E5%8E%BB/"
-        },"genre": "blog","keywords":["Hugo","代码","片段"],"wordcount":  150 ,
-        "url": "https://zengeeklabs.github.io/blog/%E5%87%A0%E4%B8%AA%E5%B8%B8%E7%94%A8%E7%9A%84-hugo-%E7%89%87%E6%AE%B5%E5%A4%9F%E6%88%91%E6%8A%8A%E5%8D%9A%E5%AE%A2%E7%BB%A7%E7%BB%AD%E6%90%AD%E4%B8%8B%E5%8E%BB/","datePublished": "2024-07-02T10:20:00+08:00","dateModified": "2024-07-02T10:20:00+08:00","publisher": {
+            "@id": "https://zengeeklabs.github.io/blog/folder/"
+        },"genre": "blog","keywords":["结构","Assets","Hugo","工作流"],"wordcount":  489 ,
+        "url": "https://zengeeklabs.github.io/blog/folder/","datePublished": "2026-05-04T09:00:00+08:00","dateModified": "2026-05-04T09:00:00+08:00","publisher": {
             "@type": "Organization",
             "name": "ZenGeekLabs"},"author": {
                 "@type": "Person",
                 "name": "ZenGeekLabs",
                 "url": "/"
-            },"description": "一篇测试代码块和配置展示的文章，用来验证等宽字体、代码高亮和段落间距。"
+            },"description": "用一篇测试文章展示更工程化的 Hugo 文章目录结构，包括 index.md、index.en.md 和 assets 目录。"
     }</script></head>
 
 
@@ -96,7 +97,7 @@
                     rel="noopener noreferrer" target="_blank" ><svg class='icon' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 496 512'><path d='M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z'/></svg>  </a><span class="menu-item delimiter"></span><div class="menu-item language tw:inline-block">中文<svg class="icon"
     xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!-- Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) --><path d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z"/></svg>
                     <select class="language-select" aria-label="选择语言" id="language-select-desktop"
-                        onchange="location = this.value;"><option value="/blog/%E5%87%A0%E4%B8%AA%E5%B8%B8%E7%94%A8%E7%9A%84-hugo-%E7%89%87%E6%AE%B5%E5%A4%9F%E6%88%91%E6%8A%8A%E5%8D%9A%E5%AE%A2%E7%BB%A7%E7%BB%AD%E6%90%AD%E4%B8%8B%E5%8E%BB/"  selected>中文</option><option value="/en/blog/hugo-snippets/" >English</option></select>
+                        onchange="location = this.value;"><option value="/blog/folder/"  selected>中文</option><option value="/en/blog/folder-structure-demo/" >English</option></select>
                 </div><span class="menu-item search" id="search-desktop">
                     <input type="text"
                         placeholder="搜索文章..."
@@ -166,7 +167,7 @@
                 </select>
             </div><div class="menu-item tw:w-full" title="">中文<svg class="icon"
     xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!-- Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) --><path d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z"/></svg>
-                <select class="language-select" title="" onchange="location = this.value;"><option value="/blog/%E5%87%A0%E4%B8%AA%E5%B8%B8%E7%94%A8%E7%9A%84-hugo-%E7%89%87%E6%AE%B5%E5%A4%9F%E6%88%91%E6%8A%8A%E5%8D%9A%E5%AE%A2%E7%BB%A7%E7%BB%AD%E6%90%AD%E4%B8%8B%E5%8E%BB/"  selected>中文</option><option value="/en/blog/hugo-snippets/" >English</option></select>
+                <select class="language-select" title="" onchange="location = this.value;"><option value="/blog/folder/"  selected>中文</option><option value="/en/blog/folder-structure-demo/" >English</option></select>
             </div></div>
     </div>
 </header>
@@ -179,10 +180,12 @@
         <h2 class="toc-title">目录</h2>
         <div class="toc-content" id="toc-content-auto"><nav id="TableOfContents">
   <ul>
-    <li><a href="#首页文章列表">首页文章列表</a></li>
-    <li><a href="#标签链接">标签链接</a></li>
-    <li><a href="#配置里的一个最小菜单">配置里的一个最小菜单</a></li>
-    <li><a href="#为什么要留下这些片段">为什么要留下这些片段</a></li>
+    <li><a href="#推荐目录结构">推荐目录结构</a></li>
+    <li><a href="#为什么这样更专业">为什么这样更专业</a></li>
+    <li><a href="#示例资源">示例资源</a></li>
+    <li><a href="#什么时候放进-assets">什么时候放进 assets</a></li>
+    <li><a href="#什么时候不要放进-assets">什么时候不要放进 assets</a></li>
+    <li><a href="#最后的规范建议">最后的规范建议</a></li>
   </ul>
 </nav></div>
     </div><dialog id="toc-dialog" class="tw:max-w-full tw:w-full tw:max-h-full tw:h-full tw:ml-16">
@@ -190,24 +193,26 @@
             <h2 class="tw:mx-0 tw:my-6 tw:uppercase tw:text-2xl">目录</h2>
             <div class="toc-content"><nav id="TableOfContents">
   <ul>
-    <li><a href="#首页文章列表">首页文章列表</a></li>
-    <li><a href="#标签链接">标签链接</a></li>
-    <li><a href="#配置里的一个最小菜单">配置里的一个最小菜单</a></li>
-    <li><a href="#为什么要留下这些片段">为什么要留下这些片段</a></li>
+    <li><a href="#推荐目录结构">推荐目录结构</a></li>
+    <li><a href="#为什么这样更专业">为什么这样更专业</a></li>
+    <li><a href="#示例资源">示例资源</a></li>
+    <li><a href="#什么时候放进-assets">什么时候放进 assets</a></li>
+    <li><a href="#什么时候不要放进-assets">什么时候不要放进 assets</a></li>
+    <li><a href="#最后的规范建议">最后的规范建议</a></li>
   </ul>
 </nav></div>
         </div>
-    </dialog><script>document.getElementsByTagName("main")[0].setAttribute("autoTOC", "true")</script><article class="page single tw:print:w-full! tw:print:max-w-none! tw:print:m-0! tw:print:p-0!"><h1 class="single-title" data-pagefind-meta="date:2024-07-02" data-pagefind-body>几个常用的 Hugo 片段，够我把博客继续搭下去</h1><div class="post-meta">
+    </dialog><script>document.getElementsByTagName("main")[0].setAttribute("autoTOC", "true")</script><article class="page single tw:print:w-full! tw:print:max-w-none! tw:print:m-0! tw:print:p-0!"><h1 class="single-title" data-pagefind-meta="date:2026-05-04" data-pagefind-body>工程化文章目录示例：一篇文章、一个文件夹、一个 assets</h1><div class="post-meta">
             <div class="post-meta-line">
                 <span class="post-author"><img class="tw:inline-block tw:max-h-4 tw:rounded-full tw:translate-y-[-2px] tw:mr-1"  src='/avatar-placeholder.svg'   alt="ZenGeekLabs avatar" height="16" width="16"><a href="/" title="ZenGeekLabs" class="author" rel="author">ZenGeekLabs</a>
-                </span>&nbsp;<span class="post-category">收录于 </span>&nbsp;<span class="post-category">类别 <a href="/categories/%E4%BB%A3%E7%A0%81/"><svg class="icon"
-    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!-- Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) --><path d="M464 128H272l-54.63-54.63c-6-6-14.14-9.37-22.63-9.37H48C21.49 64 0 85.49 0 112v288c0 26.51 21.49 48 48 48h416c26.51 0 48-21.49 48-48V176c0-26.51-21.49-48-48-48zm0 272H48V112h140.12l54.63 54.63c6 6 14.14 9.37 22.63 9.37H464v224z"/></svg>代码</a></span></div>
+                </span>&nbsp;<span class="post-category">收录于 </span>&nbsp;<span class="post-category">类别 <a href="/categories/%E6%B5%8B%E8%AF%95/"><svg class="icon"
+    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!-- Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) --><path d="M464 128H272l-54.63-54.63c-6-6-14.14-9.37-22.63-9.37H48C21.49 64 0 85.49 0 112v288c0 26.51 21.49 48 48 48h416c26.51 0 48-21.49 48-48V176c0-26.51-21.49-48-48-48zm0 272H48V112h140.12l54.63 54.63c6 6 14.14 9.37 22.63 9.37H464v224z"/></svg>测试</a></span></div>
             <div class="post-meta-line"><svg class="icon"
-    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!-- Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) --><path d="M148 288h-40c-6.6 0-12-5.4-12-12v-40c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v40c0 6.6-5.4 12-12 12zm108-12v-40c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12zm96 0v-40c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12zm-96 96v-40c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12zm-96 0v-40c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12zm192 0v-40c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12zm96-260v352c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V112c0-26.5 21.5-48 48-48h48V12c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v52h128V12c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v52h48c26.5 0 48 21.5 48 48zm-48 346V160H48v298c0 3.3 2.7 6 6 6h340c3.3 0 6-2.7 6-6z"/></svg>&nbsp;<time datetime="2024-07-02">2024-07-02</time>&nbsp;<svg class="icon"
-    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!-- Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) --><path d="M402.3 344.9l32-32c5-5 13.7-1.5 13.7 5.7V464c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V112c0-26.5 21.5-48 48-48h273.5c7.1 0 10.7 8.6 5.7 13.7l-32 32c-1.5 1.5-3.5 2.3-5.7 2.3H48v352h352V350.5c0-2.1.8-4.1 2.3-5.6zm156.6-201.8L296.3 405.7l-90.4 10c-26.2 2.9-48.5-19.2-45.6-45.6l10-90.4L432.9 17.1c22.9-22.9 59.9-22.9 82.7 0l43.2 43.2c22.9 22.9 22.9 60 .1 82.8zM460.1 174L402 115.9 216.2 301.8l-7.3 65.3 65.3-7.3L460.1 174zm64.8-79.7l-43.2-43.2c-4.1-4.1-10.8-4.1-14.8 0L436 82l58.1 58.1 30.9-30.9c4-4.2 4-10.8-.1-14.9z"/></svg>&nbsp;<time datetime="2024-07-02">2024-07-02</time>&nbsp;<svg class="icon"
-    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!-- Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) --><path d="M497.9 142.1l-46.1 46.1c-4.7 4.7-12.3 4.7-17 0l-111-111c-4.7-4.7-4.7-12.3 0-17l46.1-46.1c18.7-18.7 49.1-18.7 67.9 0l60.1 60.1c18.8 18.7 18.8 49.1 0 67.9zM284.2 99.8L21.6 362.4.4 483.9c-2.9 16.4 11.4 30.6 27.8 27.8l121.5-21.3 262.6-262.6c4.7-4.7 4.7-12.3 0-17l-111-111c-4.8-4.7-12.4-4.7-17.1 0zM124.1 339.9c-5.5-5.5-5.5-14.3 0-19.8l154-154c5.5-5.5 14.3-5.5 19.8 0s5.5 14.3 0 19.8l-154 154c-5.5 5.5-14.3 5.5-19.8 0zM88 424h48v36.3l-64.5 11.3-31.1-31.1L51.7 376H88v48z"/></svg>&nbsp;约 150 字&nbsp;
+    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!-- Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) --><path d="M148 288h-40c-6.6 0-12-5.4-12-12v-40c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v40c0 6.6-5.4 12-12 12zm108-12v-40c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12zm96 0v-40c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12zm-96 96v-40c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12zm-96 0v-40c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12zm192 0v-40c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12zm96-260v352c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V112c0-26.5 21.5-48 48-48h48V12c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v52h128V12c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v52h48c26.5 0 48 21.5 48 48zm-48 346V160H48v298c0 3.3 2.7 6 6 6h340c3.3 0 6-2.7 6-6z"/></svg>&nbsp;<time datetime="2026-05-04">2026-05-04</time>&nbsp;<svg class="icon"
+    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!-- Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) --><path d="M402.3 344.9l32-32c5-5 13.7-1.5 13.7 5.7V464c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V112c0-26.5 21.5-48 48-48h273.5c7.1 0 10.7 8.6 5.7 13.7l-32 32c-1.5 1.5-3.5 2.3-5.7 2.3H48v352h352V350.5c0-2.1.8-4.1 2.3-5.6zm156.6-201.8L296.3 405.7l-90.4 10c-26.2 2.9-48.5-19.2-45.6-45.6l10-90.4L432.9 17.1c22.9-22.9 59.9-22.9 82.7 0l43.2 43.2c22.9 22.9 22.9 60 .1 82.8zM460.1 174L402 115.9 216.2 301.8l-7.3 65.3 65.3-7.3L460.1 174zm64.8-79.7l-43.2-43.2c-4.1-4.1-10.8-4.1-14.8 0L436 82l58.1 58.1 30.9-30.9c4-4.2 4-10.8-.1-14.9z"/></svg>&nbsp;<time datetime="2026-05-04">2026-05-04</time>&nbsp;<svg class="icon"
+    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!-- Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) --><path d="M497.9 142.1l-46.1 46.1c-4.7 4.7-12.3 4.7-17 0l-111-111c-4.7-4.7-4.7-12.3 0-17l46.1-46.1c18.7-18.7 49.1-18.7 67.9 0l60.1 60.1c18.8 18.7 18.8 49.1 0 67.9zM284.2 99.8L21.6 362.4.4 483.9c-2.9 16.4 11.4 30.6 27.8 27.8l121.5-21.3 262.6-262.6c4.7-4.7 4.7-12.3 0-17l-111-111c-4.8-4.7-12.4-4.7-17.1 0zM124.1 339.9c-5.5-5.5-5.5-14.3 0-19.8l154-154c5.5-5.5 14.3-5.5 19.8 0s5.5 14.3 0 19.8l-154 154c-5.5 5.5-14.3 5.5-19.8 0zM88 424h48v36.3l-64.5 11.3-31.1-31.1L51.7 376H88v48z"/></svg>&nbsp;约 489 字&nbsp;
                     <svg class="icon"
-    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!-- Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) --><path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm0 448c-110.5 0-200-89.5-200-200S145.5 56 256 56s200 89.5 200 200-89.5 200-200 200zm61.8-104.4l-84.9-61.7c-3.1-2.3-4.9-5.9-4.9-9.7V116c0-6.6 5.4-12 12-12h32c6.6 0 12 5.4 12 12v141.7l66.8 48.6c5.4 3.9 6.5 11.4 2.6 16.8L334.6 349c-3.9 5.3-11.4 6.5-16.8 2.6z"/></svg>&nbsp;预计阅读 1 分钟&nbsp;</div>
+    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!-- Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) --><path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm0 448c-110.5 0-200-89.5-200-200S145.5 56 256 56s200 89.5 200 200-89.5 200-200 200zm61.8-104.4l-84.9-61.7c-3.1-2.3-4.9-5.9-4.9-9.7V116c0-6.6 5.4-12 12-12h32c6.6 0 12 5.4 12 12v141.7l66.8 48.6c5.4 3.9 6.5 11.4 2.6 16.8L334.6 349c-3.9 5.3-11.4 6.5-16.8 2.6z"/></svg>&nbsp;预计阅读 3 分钟&nbsp;</div>
         </div><div class="details toc tw:print:block!" id="toc-static" data-kept="">
                 <div class="details-summary toc-title">
                     <span>目录</span>
@@ -216,14 +221,17 @@
                 </div>
                 <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
   <ul>
-    <li><a href="#首页文章列表">首页文章列表</a></li>
-    <li><a href="#标签链接">标签链接</a></li>
-    <li><a href="#配置里的一个最小菜单">配置里的一个最小菜单</a></li>
-    <li><a href="#为什么要留下这些片段">为什么要留下这些片段</a></li>
+    <li><a href="#推荐目录结构">推荐目录结构</a></li>
+    <li><a href="#为什么这样更专业">为什么这样更专业</a></li>
+    <li><a href="#示例资源">示例资源</a></li>
+    <li><a href="#什么时候放进-assets">什么时候放进 assets</a></li>
+    <li><a href="#什么时候不要放进-assets">什么时候不要放进 assets</a></li>
+    <li><a href="#最后的规范建议">最后的规范建议</a></li>
   </ul>
 </nav></div>
-            </div><div class="content" id="content" data-pagefind-body><h2 id="首页文章列表" class="headerLink">
-    <a href="#%e9%a6%96%e9%a1%b5%e6%96%87%e7%ab%a0%e5%88%97%e8%a1%a8" class="header-mark"></a>首页文章列表</h2><p>有时候只想拿到 <code>blog</code> 目录下的文章：</p>
+            </div><div class="content" id="content" data-pagefind-body><p>这篇文章不是为了写内容本身，而是为了<strong>展示一篇文章在仓库里应该如何组织</strong>，让目录看起来更像工程，而不是一堆散落文件。</p>
+<h2 id="推荐目录结构" class="headerLink">
+    <a href="#%e6%8e%a8%e8%8d%90%e7%9b%ae%e5%bd%95%e7%bb%93%e6%9e%84" class="header-mark"></a>推荐目录结构</h2><p>这篇文章自己的目录建议长这样：</p>
 <div class="code-block highlight is-open show-line-numbers  tw:group tw:my-2">
   <div class="
     
@@ -243,7 +251,7 @@
       aria-hidden="true">
           <span class="tw:group-[.is-open]:rotate-90 tw:transition-[transform] tw:duration-500 tw:ease-in-out tw:print:hidden! tw:w-min tw:h-min tw:my-1 tw:mx-1"><svg class="icon"
     xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!-- Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) --><path d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z"/></svg></span>
-          <span class="tw:select-none tw:my-1! tw:block">go-html-template</span>
+          <span class="tw:select-none tw:my-1! tw:block">text</span>
       </button>
 
    <div class="tw:flex">
@@ -313,13 +321,55 @@
       tw:overflow-y-hidden
       tw:overflow-x-auto
       tw:scrollbar-thin
-      "><span style="display:flex;"><span><span style="color:#75715e">{{</span> <span style="color:#a6e22e">$posts</span> <span style="color:#f92672">:=</span> <span style="color:#a6e22e">where</span> <span style="color:#a6e22e">site</span><span style="color:#a6e22e">.RegularPages</span> <span style="color:#e6db74">&#34;Section&#34;</span> <span style="color:#e6db74">&#34;blog&#34;</span> <span style="color:#75715e">}}</span>
-</span></span><span style="display:flex;"><span><span style="color:#75715e">{{</span> <span style="color:#66d9ef">range</span> <span style="color:#a6e22e">first</span> <span style="color:#a6e22e">5</span> <span style="color:#a6e22e">$posts</span> <span style="color:#75715e">}}</span>
-</span></span><span style="display:flex;"><span>  &lt;<span style="color:#f92672">a</span> <span style="color:#a6e22e">href</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;</span><span style="color:#75715e">{{</span> <span style="color:#a6e22e">.RelPermalink</span> <span style="color:#75715e">}}</span><span style="color:#e6db74">&#34;</span>&gt;<span style="color:#75715e">{{</span> <span style="color:#a6e22e">.Title</span> <span style="color:#75715e">}}</span>&lt;/<span style="color:#f92672">a</span>&gt;
-</span></span><span style="display:flex;"><span><span style="color:#75715e">{{</span> <span style="color:#66d9ef">end</span> <span style="color:#75715e">}}</span></span></span></code></pre>
+      "><span style="display:flex;"><span>content/blog/folder-structure-demo/
+</span></span><span style="display:flex;"><span>  index.md
+</span></span><span style="display:flex;"><span>  index.en.md
+</span></span><span style="display:flex;"><span>  assets/
+</span></span><span style="display:flex;"><span>    cover-placeholder.svg
+</span></span><span style="display:flex;"><span>    workflow-diagram.svg
+</span></span><span style="display:flex;"><span>    publishing-checklist.txt</span></span></code></pre>
 </div>
-<h2 id="标签链接" class="headerLink">
-    <a href="#%e6%a0%87%e7%ad%be%e9%93%be%e6%8e%a5" class="header-mark"></a>标签链接</h2><p>把标签转换成可点击地址：</p>
+<p>你可以把它理解成：</p>
+<ul>
+<li><code>index.md</code>：中文正文</li>
+<li><code>index.en.md</code>：英文正文</li>
+<li><code>assets/</code>：这篇文章自己的图片、图表、附件</li>
+</ul>
+<h2 id="为什么这样更专业" class="headerLink">
+    <a href="#%e4%b8%ba%e4%bb%80%e4%b9%88%e8%bf%99%e6%a0%b7%e6%9b%b4%e4%b8%93%e4%b8%9a" class="header-mark"></a>为什么这样更专业</h2><p>这种结构有几个好处：</p>
+<ul>
+<li>一篇文章就是一个完整单元</li>
+<li>中文、英文和附件天然绑定在一起</li>
+<li>后面迁移、备份、改名都方便</li>
+<li>别人打开仓库时，一眼就能看懂</li>
+<li>比把图片散放在全局目录里更像工程项目</li>
+</ul>
+<h2 id="示例资源" class="headerLink">
+    <a href="#%e7%a4%ba%e4%be%8b%e8%b5%84%e6%ba%90" class="header-mark"></a>示例资源</h2><p>下面这张图来自这篇文章自己的 <code>assets/</code> 目录：</p>
+<p><img class="tw:inline" loading="lazy" src='/blog/folder/assets/cover-placeholder.svg'   alt="封面占位图"  ></p>
+<p>再看一个更像流程图的示意图：</p>
+<p><img class="tw:inline" loading="lazy" src='/blog/folder/assets/workflow-diagram.svg'   alt="发布流程图"  ></p>
+<p>如果你要放附件下载，也可以直接放在同一个目录里：</p>
+<p><a href="/blog/folder/assets/publishing-checklist.txt" rel="">下载发布检查清单</a></p>
+<h2 id="什么时候放进-assets" class="headerLink">
+    <a href="#%e4%bb%80%e4%b9%88%e6%97%b6%e5%80%99%e6%94%be%e8%bf%9b-assets" class="header-mark"></a>什么时候放进 assets</h2><p>建议放进 <code>assets/</code> 的内容：</p>
+<ul>
+<li>封面图</li>
+<li>截图</li>
+<li>示意图</li>
+<li>PDF</li>
+<li>这篇文章专属的下载附件</li>
+</ul>
+<h2 id="什么时候不要放进-assets" class="headerLink">
+    <a href="#%e4%bb%80%e4%b9%88%e6%97%b6%e5%80%99%e4%b8%8d%e8%a6%81%e6%94%be%e8%bf%9b-assets" class="header-mark"></a>什么时候不要放进 assets</h2><p>这些更适合放在全站的 <a href="/Users/zhugeliang/notes/ZenGeekLabs.github.io/static" rel="">static</a>：</p>
+<ul>
+<li>favicon</li>
+<li>站点头像</li>
+<li>全站通用 logo</li>
+<li>多篇文章都会复用的公共资源</li>
+</ul>
+<h2 id="最后的规范建议" class="headerLink">
+    <a href="#%e6%9c%80%e5%90%8e%e7%9a%84%e8%a7%84%e8%8c%83%e5%bb%ba%e8%ae%ae" class="header-mark"></a>最后的规范建议</h2><p>如果你想让博客的内容结构长期保持干净，我建议就固定成这套：</p>
 <div class="code-block highlight is-open show-line-numbers  tw:group tw:my-2">
   <div class="
     
@@ -339,7 +389,7 @@
       aria-hidden="true">
           <span class="tw:group-[.is-open]:rotate-90 tw:transition-[transform] tw:duration-500 tw:ease-in-out tw:print:hidden! tw:w-min tw:h-min tw:my-1 tw:mx-1"><svg class="icon"
     xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!-- Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) --><path d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z"/></svg></span>
-          <span class="tw:select-none tw:my-1! tw:block">go-html-template</span>
+          <span class="tw:select-none tw:my-1! tw:block">text</span>
       </button>
 
    <div class="tw:flex">
@@ -409,114 +459,19 @@
       tw:overflow-y-hidden
       tw:overflow-x-auto
       tw:scrollbar-thin
-      "><span style="display:flex;"><span><span style="color:#75715e">{{</span> <span style="color:#66d9ef">range</span> <span style="color:#a6e22e">.Params.tags</span> <span style="color:#75715e">}}</span>
-</span></span><span style="display:flex;"><span>  &lt;<span style="color:#f92672">a</span> <span style="color:#a6e22e">href</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;</span><span style="color:#75715e">{{</span> <span style="color:#f92672">(</span><span style="color:#66d9ef">printf</span> <span style="color:#e6db74">&#34;/tags/%s/&#34;</span> <span style="color:#f92672">(</span><span style="color:#a6e22e">.</span> <span style="color:#f92672">|</span> <span style="color:#a6e22e">urlize</span><span style="color:#f92672">))</span> <span style="color:#f92672">|</span> <span style="color:#a6e22e">relURL</span> <span style="color:#75715e">}}</span><span style="color:#e6db74">&#34;</span>&gt;<span style="color:#75715e">{{</span> <span style="color:#a6e22e">.</span> <span style="color:#75715e">}}</span>&lt;/<span style="color:#f92672">a</span>&gt;
-</span></span><span style="display:flex;"><span><span style="color:#75715e">{{</span> <span style="color:#66d9ef">end</span> <span style="color:#75715e">}}</span></span></span></code></pre>
+      "><span style="display:flex;"><span>一篇文章 = 一个文件夹
+</span></span><span style="display:flex;"><span>中文正文 = index.md
+</span></span><span style="display:flex;"><span>英文正文 = index.en.md
+</span></span><span style="display:flex;"><span>文章资源 = assets/</span></span></code></pre>
 </div>
-<h2 id="配置里的一个最小菜单" class="headerLink">
-    <a href="#%e9%85%8d%e7%bd%ae%e9%87%8c%e7%9a%84%e4%b8%80%e4%b8%aa%e6%9c%80%e5%b0%8f%e8%8f%9c%e5%8d%95" class="header-mark"></a>配置里的一个最小菜单</h2><div class="code-block highlight is-open show-line-numbers  tw:group tw:my-2">
-  <div class="
-    
-    tw:flex 
-    tw:flex-row
-    tw:flex-1 
-    tw:justify-between 
-    tw:w-full tw:bg-bgColor-secondary
-    ">      
-    <button 
-      class="
-        code-block-button
-        tw:mx-2 
-        tw:flex
-        tw:flex-row
-        tw:flex-1"
-      aria-hidden="true">
-          <span class="tw:group-[.is-open]:rotate-90 tw:transition-[transform] tw:duration-500 tw:ease-in-out tw:print:hidden! tw:w-min tw:h-min tw:my-1 tw:mx-1"><svg class="icon"
-    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!-- Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) --><path d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z"/></svg></span>
-          <span class="tw:select-none tw:my-1! tw:block">toml</span>
-      </button>
-
-   <div class="tw:flex">
-      <button 
-        class="
-          line-number-button
-          tw:mx-2 
-          tw:hidden 
-          tw:group-[.is-open]:block 
-          tw:group-[.show-line-numbers]:text-fgColor-link 
-          tw:print:hidden!" 
-        title="Toggle line numbers"><svg class="icon"
-    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!-- Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) --><path d="M61.77 401l17.5-20.15a19.92 19.92 0 0 0 5.07-14.19v-3.31C84.34 356 80.5 352 73 352H16a8 8 0 0 0-8 8v16a8 8 0 0 0 8 8h22.83a157.41 157.41 0 0 0-11 12.31l-5.61 7c-4 5.07-5.25 10.13-2.8 14.88l1.05 1.93c3 5.76 6.29 7.88 12.25 7.88h4.73c10.33 0 15.94 2.44 15.94 9.09 0 4.72-4.2 8.22-14.36 8.22a41.54 41.54 0 0 1-15.47-3.12c-6.49-3.88-11.74-3.5-15.6 3.12l-5.59 9.31c-3.72 6.13-3.19 11.72 2.63 15.94 7.71 4.69 20.38 9.44 37 9.44 34.16 0 48.5-22.75 48.5-44.12-.03-14.38-9.12-29.76-28.73-34.88zM496 224H176a16 16 0 0 0-16 16v32a16 16 0 0 0 16 16h320a16 16 0 0 0 16-16v-32a16 16 0 0 0-16-16zm0-160H176a16 16 0 0 0-16 16v32a16 16 0 0 0 16 16h320a16 16 0 0 0 16-16V80a16 16 0 0 0-16-16zm0 320H176a16 16 0 0 0-16 16v32a16 16 0 0 0 16 16h320a16 16 0 0 0 16-16v-32a16 16 0 0 0-16-16zM16 160h64a8 8 0 0 0 8-8v-16a8 8 0 0 0-8-8H64V40a8 8 0 0 0-8-8H32a8 8 0 0 0-7.14 4.42l-8 16A8 8 0 0 0 24 64h8v64H16a8 8 0 0 0-8 8v16a8 8 0 0 0 8 8zm-3.91 160H80a8 8 0 0 0 8-8v-16a8 8 0 0 0-8-8H41.32c3.29-10.29 48.34-18.68 48.34-56.44 0-29.06-25-39.56-44.47-39.56-21.36 0-33.8 10-40.46 18.75-4.37 5.59-3 10.84 2.8 15.37l8.58 6.88c5.61 4.56 11 2.47 16.12-2.44a13.44 13.44 0 0 1 9.46-3.84c3.33 0 9.28 1.56 9.28 8.75C51 248.19 0 257.31 0 304.59v4C0 316 5.08 320 12.09 320z"/></svg></button>
-
-      <button 
-        class="
-          wrap-code-button
-          tw:select-none 
-          tw:mx-2 
-          tw:hidden 
-          tw:group-[.is-open]:block 
-          tw:group-[.is-wrap]:text-fgColor-link 
-          tw:print:hidden!" 
-        title="Toggle code wrap"><svg class="icon"
-    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!-- Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) --><path d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z"/></svg></button>
-      
-      <button 
-        class="
-          copy-code-button
-          tw:select-none
-          tw:mx-2 
-          tw:hidden
-          tw:group-[.is-open]:block
-          tw:hover:text-fgColor-link 
-          tw:print:hidden!"
-        title="Copy code">
-          <span class="copy-icon tw:block"><svg class="icon"
-    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!-- Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) --><path d="M433.941 65.941l-51.882-51.882A48 48 0 0 0 348.118 0H176c-26.51 0-48 21.49-48 48v48H48c-26.51 0-48 21.49-48 48v320c0 26.51 21.49 48 48 48h224c26.51 0 48-21.49 48-48v-48h80c26.51 0 48-21.49 48-48V99.882a48 48 0 0 0-14.059-33.941zM266 464H54a6 6 0 0 1-6-6V150a6 6 0 0 1 6-6h74v224c0 26.51 21.49 48 48 48h96v42a6 6 0 0 1-6 6zm128-96H182a6 6 0 0 1-6-6V54a6 6 0 0 1 6-6h106v88c0 13.255 10.745 24 24 24h88v202a6 6 0 0 1-6 6zm6-256h-64V48h9.632c1.591 0 3.117.632 4.243 1.757l48.368 48.368a6 6 0 0 1 1.757 4.243V112z"/></svg></span>
-          <span class="check-icon tw:hidden"><svg class="icon"
-    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!-- Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) --><path d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"/></svg></span>
-      </button>
-        
-      <button 
-        class="
-          tw:select-none 
-          tw:mx-2 
-          tw:block 
-          tw:group-[.is-open]:hidden 
-          tw:print:hidden!" 
-        disabled
-        aria-hidden="true"><svg class="icon"
-    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!-- Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) --><path d="M328 256c0 39.8-32.2 72-72 72s-72-32.2-72-72 32.2-72 72-72 72 32.2 72 72zm104-72c-39.8 0-72 32.2-72 72s32.2 72 72 72 72-32.2 72-72-32.2-72-72-72zm-352 0c-39.8 0-72 32.2-72 72s32.2 72 72 72 72-32.2 72-72-32.2-72-72-72z"/></svg></button>
-    </div>
-  </div>
-  <pre style="counter-reset: codeblock;" class="tw:block tw:m-0 tw:p-0"><code 
-    id="codeblock-id-3" 
-    class="
-      chroma 
-      tw:block! 
-      tw:p-0
-      tw:m-0
-      tw:transition-[max-height] 
-      tw:duration-500 
-      tw:ease-in-out 
-      tw:group-[.is-closed]:max-h-0! 
-      tw:group-[.is-wrap]:text-wrap
-      tw:overflow-y-hidden
-      tw:overflow-x-auto
-      tw:scrollbar-thin
-      "><span style="display:flex;"><span>[[<span style="color:#a6e22e">main</span>]]
-</span></span><span style="display:flex;"><span><span style="color:#a6e22e">name</span> = <span style="color:#e6db74">&#34;文章&#34;</span>
-</span></span><span style="display:flex;"><span><span style="color:#a6e22e">url</span> = <span style="color:#e6db74">&#34;/blog/&#34;</span>
-</span></span><span style="display:flex;"><span><span style="color:#a6e22e">weight</span> = <span style="color:#ae81ff">20</span></span></span></code></pre>
-</div>
-<h2 id="为什么要留下这些片段" class="headerLink">
-    <a href="#%e4%b8%ba%e4%bb%80%e4%b9%88%e8%a6%81%e7%95%99%e4%b8%8b%e8%bf%99%e4%ba%9b%e7%89%87%e6%ae%b5" class="header-mark"></a>为什么要留下这些片段</h2><p>因为一段能复用的配置，比临时搜索一次答案更有长期价值。</p>
+<p>后面你每写一篇新文章，我们都可以直接照这个规范来。</p>
 </div>
 
         <div class="post-footer" id="post-footer">
     <div class="post-info">
         <div class="post-info-line">
             <div class="post-info-mod">
-                <span>更新于 2024-07-02</span>
+                <span>更新于 2026-05-04</span>
             </div>
             <div class="post-info-license"></div>
         </div>
@@ -528,15 +483,14 @@
 
     <div class="post-info-more">
         <div class="post-tags"><svg class="icon"
-    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><!-- Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) --><path d="M497.941 225.941L286.059 14.059A48 48 0 0 0 252.118 0H48C21.49 0 0 21.49 0 48v204.118a48 48 0 0 0 14.059 33.941l211.882 211.882c18.744 18.745 49.136 18.746 67.882 0l204.118-204.118c18.745-18.745 18.745-49.137 0-67.882zM112 160c-26.51 0-48-21.49-48-48s21.49-48 48-48 48 21.49 48 48-21.49 48-48 48zm513.941 133.823L421.823 497.941c-18.745 18.745-49.137 18.745-67.882 0l-.36-.36L527.64 323.522c16.999-16.999 26.36-39.6 26.36-63.64s-9.362-46.641-26.36-63.64L331.397 0h48.721a48 48 0 0 1 33.941 14.059l211.882 211.882c18.745 18.745 18.745 49.137 0 67.882z"/></svg>&nbsp;<a href="/tags/hugo/">Hugo</a>,&nbsp;<a href="/tags/%E4%BB%A3%E7%A0%81/">代码</a>,&nbsp;<a href="/tags/%E7%89%87%E6%AE%B5/">片段</a></div>
+    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><!-- Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) --><path d="M497.941 225.941L286.059 14.059A48 48 0 0 0 252.118 0H48C21.49 0 0 21.49 0 48v204.118a48 48 0 0 0 14.059 33.941l211.882 211.882c18.744 18.745 49.136 18.746 67.882 0l204.118-204.118c18.745-18.745 18.745-49.137 0-67.882zM112 160c-26.51 0-48-21.49-48-48s21.49-48 48-48 48 21.49 48 48-21.49 48-48 48zm513.941 133.823L421.823 497.941c-18.745 18.745-49.137 18.745-67.882 0l-.36-.36L527.64 323.522c16.999-16.999 26.36-39.6 26.36-63.64s-9.362-46.641-26.36-63.64L331.397 0h48.721a48 48 0 0 1 33.941 14.059l211.882 211.882c18.745 18.745 18.745 49.137 0 67.882z"/></svg>&nbsp;<a href="/tags/%E7%BB%93%E6%9E%84/">结构</a>,&nbsp;<a href="/tags/assets/">Assets</a>,&nbsp;<a href="/tags/hugo/">Hugo</a>,&nbsp;<a href="/tags/%E5%B7%A5%E4%BD%9C%E6%B5%81/">工作流</a></div>
         <div class="tw:print:hidden!">
             <span><button class="tw:text-fgColor-link-muted tw:hover:text-fgColor-link-muted-hover" onclick="window.history.back();">返回</button></span>&nbsp;|&nbsp;<span><a href="/">主页</a></span>
         </div>
     </div>
 
-    <div class="post-nav tw:print:hidden"><a href="/blog/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0%E4%B8%8D%E4%B8%80%E5%AE%9A%E8%A6%81%E5%AE%8C%E6%95%B4%E5%85%88%E7%95%99%E4%B8%8B%E5%8F%AF%E6%A3%80%E7%B4%A2%E7%9A%84%E9%94%9A%E7%82%B9/" class="prev" rel="prev" title="读书笔记不一定要完整，先留下可检索的锚点"><svg class="icon"
-    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512"><!-- Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) --><path d="M31.7 239l136-136c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9L127.9 256l96.4 96.4c9.4 9.4 9.4 24.6 0 33.9L201.7 409c-9.4 9.4-24.6 9.4-33.9 0l-136-136c-9.5-9.4-9.5-24.6-.1-34z"/></svg>读书笔记不一定要完整，先留下可检索的锚点</a>
-            <a href="/blog/%E6%8A%8A%E5%86%99%E4%BD%9C%E7%B3%BB%E7%BB%9F%E6%90%AD%E8%B5%B7%E6%9D%A5%E6%AF%94%E6%89%BE%E4%B8%8B%E4%B8%80%E4%B8%AA%E5%B7%A5%E5%85%B7%E6%9B%B4%E9%87%8D%E8%A6%81/" class="next" rel="next" title="把写作系统搭起来，比找下一个工具更重要">把写作系统搭起来，比找下一个工具更重要<svg class="icon"
+    <div class="post-nav tw:print:hidden">
+            <a href="/blog/format-showcase/" class="next" rel="next" title="格式测试总览：目录、表格、代码块、提示框都放进来">格式测试总览：目录、表格、代码块、提示框都放进来<svg class="icon"
     xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512"><!-- Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) --><path d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z"/></svg></a></div>
 </div>
 </article></main><footer class="footer">

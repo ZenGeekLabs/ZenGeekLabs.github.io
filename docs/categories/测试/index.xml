@@ -12,10 +12,10 @@
     <description><![CDATA[把常见格式都放在一篇文章里，方便检查目录栏、排版和组件样式。]]></description>
 </item><item>
     <title>工程化文章目录示例：一篇文章、一个文件夹、一个 assets</title>
-    <link>https://zengeeklabs.github.io/blog/folder-structure-demo/</link>
+    <link>https://zengeeklabs.github.io/blog/folder/</link>
     <pubDate>Mon, 04 May 2026 09:00:00 &#43;0800</pubDate><author>
         <name>ZenGeekLabs</name>
-    </author><guid>https://zengeeklabs.github.io/blog/folder-structure-demo/</guid>
+    </author><guid>https://zengeeklabs.github.io/blog/folder/</guid>
     <description><![CDATA[如果后面想让博客更专业、更好维护，可以把每篇文章都组织成一个完整的小单元。]]></description>
 </item></channel>
 </rss>

@@ -1,18 +1,20 @@
 {{- define "title" }}
     {{- $pager := .Scratch.Get "paginatorPager" -}}
+    {{- $sectionTitle := .Params.Title | default ((T .Section) | default .Section | dict "Some" | T "allSome") -}}
     {{- if and $pager (gt $pager.PageNumber 1) -}}
         {{ $pageNumber := printf "%v %v %v" (T "prefixPageNumber") $pager.PageNumber (T "suffixPageNumber") }}
-        {{- .Params.Title | default (T .Section) | default .Section | dict "Some" | T "allSome" }} {{ $pageNumber }} - {{ .Site.Title -}}
+        {{- $sectionTitle }} {{ $pageNumber }} - {{ .Site.Title -}}
     {{- else -}}
-         {{- .Params.Title | default (T .Section) | default .Section | dict "Some" | T "allSome" }} - {{ .Site.Title -}}
+         {{- $sectionTitle }} - {{ .Site.Title -}}
     {{- end -}}
 {{- end -}}
 
 {{- define "content" -}}
     {{- $pager := .Scratch.Get "paginatorPager" -}}
+    {{- $sectionTitle := .Params.Title | default ((T .Section) | default .Section | dict "Some" | T "allSome") -}}
     <div class="page archive">
         <h2 class="single-title">
-            {{- .Params.Title | default (T .Section) | default .Section | dict "Some" | T "allSome" -}}
+            {{- $sectionTitle -}}
         </h2>
 
         {{- if $pager -}}

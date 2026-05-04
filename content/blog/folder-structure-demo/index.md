@@ -1,14 +1,19 @@
 ---
-title: "工程化文章目录示例：一篇文章、一个文件夹、一个 assets"
-slug: "folder-structure-demo"
-description: "用一篇测试文章展示更工程化的 Hugo 文章目录结构，包括 index.md、index.en.md 和 assets 目录。"
-summary: "如果后面想让博客更专业、更好维护，可以把每篇文章都组织成一个完整的小单元。"
+title: 工程化文章目录示例：一篇文章、一个文件夹、一个 assets
+slug: folder
+description: 用一篇测试文章展示更工程化的 Hugo 文章目录结构，包括 index.md、index.en.md 和 assets 目录。
+summary: 如果后面想让博客更专业、更好维护，可以把每篇文章都组织成一个完整的小单元。
 date: 2026-05-04T09:00:00+08:00
 lastmod: 2026-05-04T09:00:00+08:00
 draft: false
 weight: 100
-categories: ["测试"]
-tags: ["结构", "Assets", "Hugo", "工作流"]
+categories:
+  - 测试
+tags:
+  - 结构
+  - Assets
+  - Hugo
+  - 工作流
 ---
 
 这篇文章不是为了写内容本身，而是为了**展示一篇文章在仓库里应该如何组织**，让目录看起来更像工程，而不是一堆散落文件。
