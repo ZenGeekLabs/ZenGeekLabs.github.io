@@ -3,19 +3,40 @@
         <title>标签 - 标签 - ZenGeekLabs blog</title>
         <link>https://zengeeklabs.github.io/tags/</link>
         <description>标签 - 标签 - ZenGeekLabs blog</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Sun, 03 May 2026 16:00:00 &#43;0800</lastBuildDate><atom:link href="https://zengeeklabs.github.io/tags/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Mon, 04 May 2026 09:00:00 &#43;0800</lastBuildDate><atom:link href="https://zengeeklabs.github.io/tags/" rel="self" type="application/rss+xml" /><item>
+    <title>Assets</title>
+    <link>https://zengeeklabs.github.io/tags/assets/</link>
+    <pubDate>Mon, 04 May 2026 09:00:00 &#43;0800</pubDate><author>
+        <name>ZenGeekLabs</name>
+    </author><guid>https://zengeeklabs.github.io/tags/assets/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>Hugo</title>
+    <link>https://zengeeklabs.github.io/tags/hugo/</link>
+    <pubDate>Mon, 04 May 2026 09:00:00 &#43;0800</pubDate><author>
+        <name>ZenGeekLabs</name>
+    </author><guid>https://zengeeklabs.github.io/tags/hugo/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>工作流</title>
+    <link>https://zengeeklabs.github.io/tags/%E5%B7%A5%E4%BD%9C%E6%B5%81/</link>
+    <pubDate>Mon, 04 May 2026 09:00:00 &#43;0800</pubDate><author>
+        <name>ZenGeekLabs</name>
+    </author><guid>https://zengeeklabs.github.io/tags/%E5%B7%A5%E4%BD%9C%E6%B5%81/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>结构</title>
+    <link>https://zengeeklabs.github.io/tags/%E7%BB%93%E6%9E%84/</link>
+    <pubDate>Mon, 04 May 2026 09:00:00 &#43;0800</pubDate><author>
+        <name>ZenGeekLabs</name>
+    </author><guid>https://zengeeklabs.github.io/tags/%E7%BB%93%E6%9E%84/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
     <title>DoIt</title>
     <link>https://zengeeklabs.github.io/tags/doit/</link>
     <pubDate>Sun, 03 May 2026 16:00:00 &#43;0800</pubDate><author>
         <name>ZenGeekLabs</name>
     </author><guid>https://zengeeklabs.github.io/tags/doit/</guid>
-    <description><![CDATA[]]></description>
-</item><item>
-    <title>Hugo</title>
-    <link>https://zengeeklabs.github.io/tags/hugo/</link>
-    <pubDate>Sun, 03 May 2026 16:00:00 &#43;0800</pubDate><author>
-        <name>ZenGeekLabs</name>
-    </author><guid>https://zengeeklabs.github.io/tags/hugo/</guid>
     <description><![CDATA[]]></description>
 </item><item>
     <title>测试</title>
@@ -51,27 +72,6 @@
     <pubDate>Thu, 18 Jul 2024 21:00:00 &#43;0800</pubDate><author>
         <name>ZenGeekLabs</name>
     </author><guid>https://zengeeklabs.github.io/tags/%E7%9F%A5%E8%AF%86%E6%95%B4%E7%90%86/</guid>
-    <description><![CDATA[]]></description>
-</item><item>
-    <title>代码</title>
-    <link>https://zengeeklabs.github.io/tags/%E4%BB%A3%E7%A0%81/</link>
-    <pubDate>Tue, 02 Jul 2024 10:20:00 &#43;0800</pubDate><author>
-        <name>ZenGeekLabs</name>
-    </author><guid>https://zengeeklabs.github.io/tags/%E4%BB%A3%E7%A0%81/</guid>
-    <description><![CDATA[]]></description>
-</item><item>
-    <title>片段</title>
-    <link>https://zengeeklabs.github.io/tags/%E7%89%87%E6%AE%B5/</link>
-    <pubDate>Tue, 02 Jul 2024 10:20:00 &#43;0800</pubDate><author>
-        <name>ZenGeekLabs</name>
-    </author><guid>https://zengeeklabs.github.io/tags/%E7%89%87%E6%AE%B5/</guid>
-    <description><![CDATA[]]></description>
-</item><item>
-    <title>工作流</title>
-    <link>https://zengeeklabs.github.io/tags/%E5%B7%A5%E4%BD%9C%E6%B5%81/</link>
-    <pubDate>Sat, 15 Jun 2024 20:15:00 &#43;0800</pubDate><author>
-        <name>ZenGeekLabs</name>
-    </author><guid>https://zengeeklabs.github.io/tags/%E5%B7%A5%E4%BD%9C%E6%B5%81/</guid>
     <description><![CDATA[]]></description>
 </item></channel>
 </rss>

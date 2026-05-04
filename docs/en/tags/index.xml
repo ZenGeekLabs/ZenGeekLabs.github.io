@@ -3,7 +3,35 @@
         <title>Tags - Tag - ZenGeekLabs blog</title>
         <link>https://zengeeklabs.github.io/en/tags/</link>
         <description>Tags - Tag - ZenGeekLabs blog</description>
-        <generator>Hugo -- gohugo.io</generator><language>en-US</language><lastBuildDate>Sun, 03 May 2026 16:00:00 &#43;0800</lastBuildDate><atom:link href="https://zengeeklabs.github.io/en/tags/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en-US</language><lastBuildDate>Mon, 04 May 2026 09:00:00 &#43;0800</lastBuildDate><atom:link href="https://zengeeklabs.github.io/en/tags/" rel="self" type="application/rss+xml" /><item>
+    <title>Assets</title>
+    <link>https://zengeeklabs.github.io/en/tags/assets/</link>
+    <pubDate>Mon, 04 May 2026 09:00:00 &#43;0800</pubDate><author>
+        <name>ZenGeekLabs</name>
+    </author><guid>https://zengeeklabs.github.io/en/tags/assets/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>Hugo</title>
+    <link>https://zengeeklabs.github.io/en/tags/hugo/</link>
+    <pubDate>Mon, 04 May 2026 09:00:00 &#43;0800</pubDate><author>
+        <name>ZenGeekLabs</name>
+    </author><guid>https://zengeeklabs.github.io/en/tags/hugo/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>Structure</title>
+    <link>https://zengeeklabs.github.io/en/tags/structure/</link>
+    <pubDate>Mon, 04 May 2026 09:00:00 &#43;0800</pubDate><author>
+        <name>ZenGeekLabs</name>
+    </author><guid>https://zengeeklabs.github.io/en/tags/structure/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>Workflow</title>
+    <link>https://zengeeklabs.github.io/en/tags/workflow/</link>
+    <pubDate>Mon, 04 May 2026 09:00:00 &#43;0800</pubDate><author>
+        <name>ZenGeekLabs</name>
+    </author><guid>https://zengeeklabs.github.io/en/tags/workflow/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
     <title>DoIt</title>
     <link>https://zengeeklabs.github.io/en/tags/doit/</link>
     <pubDate>Sun, 03 May 2026 16:00:00 &#43;0800</pubDate><author>
@@ -16,13 +44,6 @@
     <pubDate>Sun, 03 May 2026 16:00:00 &#43;0800</pubDate><author>
         <name>ZenGeekLabs</name>
     </author><guid>https://zengeeklabs.github.io/en/tags/formatting/</guid>
-    <description><![CDATA[]]></description>
-</item><item>
-    <title>Hugo</title>
-    <link>https://zengeeklabs.github.io/en/tags/hugo/</link>
-    <pubDate>Sun, 03 May 2026 16:00:00 &#43;0800</pubDate><author>
-        <name>ZenGeekLabs</name>
-    </author><guid>https://zengeeklabs.github.io/en/tags/hugo/</guid>
     <description><![CDATA[]]></description>
 </item><item>
     <title>Testing</title>
@@ -51,27 +72,6 @@
     <pubDate>Thu, 18 Jul 2024 21:00:00 &#43;0800</pubDate><author>
         <name>ZenGeekLabs</name>
     </author><guid>https://zengeeklabs.github.io/en/tags/reading/</guid>
-    <description><![CDATA[]]></description>
-</item><item>
-    <title>Code</title>
-    <link>https://zengeeklabs.github.io/en/tags/code/</link>
-    <pubDate>Tue, 02 Jul 2024 10:20:00 &#43;0800</pubDate><author>
-        <name>ZenGeekLabs</name>
-    </author><guid>https://zengeeklabs.github.io/en/tags/code/</guid>
-    <description><![CDATA[]]></description>
-</item><item>
-    <title>Snippets</title>
-    <link>https://zengeeklabs.github.io/en/tags/snippets/</link>
-    <pubDate>Tue, 02 Jul 2024 10:20:00 &#43;0800</pubDate><author>
-        <name>ZenGeekLabs</name>
-    </author><guid>https://zengeeklabs.github.io/en/tags/snippets/</guid>
-    <description><![CDATA[]]></description>
-</item><item>
-    <title>System</title>
-    <link>https://zengeeklabs.github.io/en/tags/system/</link>
-    <pubDate>Sat, 15 Jun 2024 20:15:00 &#43;0800</pubDate><author>
-        <name>ZenGeekLabs</name>
-    </author><guid>https://zengeeklabs.github.io/en/tags/system/</guid>
     <description><![CDATA[]]></description>
 </item></channel>
 </rss>

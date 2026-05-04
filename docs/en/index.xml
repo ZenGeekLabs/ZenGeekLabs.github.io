@@ -47,5 +47,12 @@
         <name>ZenGeekLabs</name>
     </author><guid>https://zengeeklabs.github.io/en/blog/format-showcase/</guid>
     <description><![CDATA[Put the common formats into one article so we can quickly verify the TOC, typography, and component styling.]]></description>
+</item><item>
+    <title>A More Structured Article Bundle: One Post, One Folder, One assets Directory</title>
+    <link>https://zengeeklabs.github.io/en/blog/folder-structure-demo/</link>
+    <pubDate>Mon, 04 May 2026 09:00:00 &#43;0800</pubDate><author>
+        <name>ZenGeekLabs</name>
+    </author><guid>https://zengeeklabs.github.io/en/blog/folder-structure-demo/</guid>
+    <description><![CDATA[If the blog should feel more professional and easier to maintain, each post can be treated as a self-contained bundle.]]></description>
 </item></channel>
 </rss>

@@ -1,0 +1,9 @@
+Publishing checklist
+====================
+
+1. Finish the draft content.
+2. Confirm title, description, and summary.
+3. Set draft = false.
+4. Preview with hugo server.
+5. Build with hugo --config hugo.toml.
+6. Commit and push to main.
