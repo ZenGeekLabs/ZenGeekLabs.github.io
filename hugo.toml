@@ -5,6 +5,7 @@ defaultContentLanguage = "zh-cn"
 defaultContentLanguageInSubdir = false
 disableDefaultLanguageRedirect = true
 enableRobotsTXT = true
+enableGitInfo = true
 enableEmoji = true
 publishDir = "docs"
 
@@ -23,6 +24,9 @@ publishDir = "docs"
 
 [permalinks]
   blog = "/blog/:slug/"
+
+[frontmatter]
+  lastmod = [":git", "lastmod", "modified", "date", "publishdate", "pubdate", "published"]
 
 [markup]
   [markup.goldmark.renderer]

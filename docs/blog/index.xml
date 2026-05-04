@@ -3,7 +3,7 @@
         <title>所有文章 -  - ZenGeekLabs blog</title>
         <link>https://zengeeklabs.github.io/blog/</link>
         <description>所有文章 -  - ZenGeekLabs blog</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Mon, 04 May 2026 09:00:00 &#43;0800</lastBuildDate><atom:link href="https://zengeeklabs.github.io/blog/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><atom:link href="https://zengeeklabs.github.io/blog/" rel="self" type="application/rss+xml" /><item>
     <title>我的第一篇文章</title>
     <link>https://zengeeklabs.github.io/blog/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/</link>
     <pubDate>Mon, 20 May 2024 08:00:00 &#43;0800</pubDate><author>
@@ -52,5 +52,20 @@
         <name>ZenGeekLabs</name>
     </author><guid>https://zengeeklabs.github.io/blog/folder/</guid>
     <description><![CDATA[如果后面想让博客更专业、更好维护，可以把每篇文章都组织成一个完整的小单元。]]></description>
+</item><item>
+    <title>测试文档：date 固定，lastmod 走 Git</title>
+    <link>https://zengeeklabs.github.io/blog/%E6%B5%8B%E8%AF%95%E6%96%87%E6%A1%A3date-%E5%9B%BA%E5%AE%9Alastmod-%E8%B5%B0-git/</link>
+    <pubDate>Sun, 03 May 2026 16:25:00 &#43;0800</pubDate><author>
+        <name>ZenGeekLabs</name>
+    </author><guid>https://zengeeklabs.github.io/blog/%E6%B5%8B%E8%AF%95%E6%96%87%E6%A1%A3date-%E5%9B%BA%E5%AE%9Alastmod-%E8%B5%B0-git/</guid>
+    <description><![CDATA[<p>这是一篇本地测试文章，用来确认我们现在的写作模板已经切到了更简单的版本。</p>
+<h2 id="这篇文章主要验证什么" class="headerLink">
+    <a href="#%e8%bf%99%e7%af%87%e6%96%87%e7%ab%a0%e4%b8%bb%e8%a6%81%e9%aa%8c%e8%af%81%e4%bb%80%e4%b9%88" class="header-mark"></a>这篇文章主要验证什么</h2><ul>
+<li><code>date</code> 会作为创建时间保留下来</li>
+<li><code>lastmod</code> 不再手写，而是交给 Git 自动提供</li>
+<li>新文章模板不再默认塞一堆空字段</li>
+</ul>
+<h2 id="现在的最小字段长什么样" class="headerLink">
+    <a href="#%e7%8e%b0%e5%9c%a8%e7%9a%84%e6%9c%80%e5%b0%8f%e5%ad%97%e6%ae%b5%e9%95%bf%e4%bb%80%e4%b9%88%e6%a0%b7" class="header-mark"></a>现在的最小字段长什么样</h2><p>现在一篇新文章的最小 front matter 是：</p>]]></description>
 </item></channel>
 </rss>
