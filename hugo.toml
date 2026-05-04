@@ -42,6 +42,12 @@ publishDir = "docs"
   keywords = ["博客", "Hugo", "编程", "工具", "工作流", "知识整理"]
   mainSections = ["blog"]
 
+  [params.typeit]
+    speed = 85
+    cursorSpeed = 900
+    cursorChar = "|"
+    duration = 0
+
   [params.author]
     name = "ZenGeekLabs"
     link = "https://zengeeklabs.github.io/"
@@ -81,7 +87,7 @@ publishDir = "docs"
       name = "ZenGeekLabs"
       pre = ""
       post = ""
-      typeit = false
+      typeit = true
 
   [params.footer]
     enable = true
@@ -113,7 +119,7 @@ publishDir = "docs"
       avatarLinkURL = "/"
       title = "ZenGeekLabs"
       subtitle = "把经验写下来，把思考留下来。这里记录编程、工具、工作流与那些值得长期复用的方法。"
-      typeit = false
+      typeit = true
       social = true
       disclaimer = ""
     [params.home.posts]
@@ -174,6 +180,7 @@ publishDir = "docs"
       [languages.zh-cn.params.home.profile]
         title = "ZenGeekLabs"
         subtitle = "把经验写下来，把思考留下来。这里记录编程、工具、工作流与那些值得长期复用的方法。"
+        typeit = true
       [languages.zh-cn.params.footer]
         custom = "内容优先，长期积累。"
 
@@ -194,6 +201,7 @@ publishDir = "docs"
         title = "ZenGeekLabs"
         avatarLinkURL = "/en/"
         subtitle = "Write the experience down and keep the thinking visible. This space is for programming, tools, workflows, and reusable methods."
+        typeit = true
       [languages.en.params.footer]
         custom = "Content first. Build for the long run."
 
