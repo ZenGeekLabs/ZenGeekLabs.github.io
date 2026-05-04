@@ -34,7 +34,7 @@ http://127.0.0.1:1313
 新建一篇文章：
 
 ```bash
-hugo new blog/my-new-post/index.md
+scripts/new-post.sh my-new-post
 ```
 
 文章默认会使用：
@@ -49,6 +49,30 @@ hugo new blog/my-new-post/index.md
 
 ```bash
 content/blog/my-new-post/index.en.md
+```
+
+文章附件建议放在这篇文章自己的 `assets/` 目录里，例如：
+
+```text
+content/blog/my-new-post/
+  index.md
+  index.en.md
+  assets/
+    cover.png
+    screenshot-1.png
+    appendix.pdf
+```
+
+如果要把一个本地文件放进文章目录并自动生成 Markdown 引用，可以用：
+
+```bash
+scripts/add-asset.sh my-new-post /path/to/image.png
+```
+
+如果你想直接移动文件而不是复制：
+
+```bash
+scripts/add-asset.sh my-new-post /path/to/image.png --move
 ```
 
 ## 发布流程
