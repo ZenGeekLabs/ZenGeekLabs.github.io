@@ -50,7 +50,7 @@ publishDir = "docs"
 
   [params.author]
     name = "ZenGeekLabs"
-    link = "https://zengeeklabs.github.io/"
+    link = ""
     avatar = "/avatar-placeholder.svg"
 
   [params.app]
@@ -117,8 +117,8 @@ publishDir = "docs"
       gravatarEmail = ""
       avatarURL = "/avatar-placeholder.svg"
       avatarLinkURL = "/"
-      title = "ZenGeekLabs"
-      subtitle = "把经验写下来，把思考留下来。这里记录编程、工具、工作流与那些值得长期复用的方法。"
+      title = "ZenGeekLabs blog"
+      subtitle = "欢迎来到我的个人博客 🎉"
       typeit = true
       social = true
       disclaimer = ""
@@ -177,10 +177,6 @@ publishDir = "docs"
       keywords = ["博客", "Hugo", "编程", "工具", "工作流", "知识整理"]
       [languages.zh-cn.params.search]
         placeholder = "搜索文章..."
-      [languages.zh-cn.params.home.profile]
-        title = "ZenGeekLabs"
-        subtitle = "把经验写下来，把思考留下来。这里记录编程、工具、工作流与那些值得长期复用的方法。"
-        typeit = true
       [languages.zh-cn.params.footer]
         custom = "内容优先，长期积累。"
 
@@ -198,7 +194,6 @@ publishDir = "docs"
       [languages.en.params.search]
         placeholder = "Search posts..."
       [languages.en.params.home.profile]
-        title = "ZenGeekLabs"
         avatarLinkURL = "/en/"
         subtitle = "Write the experience down and keep the thinking visible. This space is for programming, tools, workflows, and reusable methods."
         typeit = true

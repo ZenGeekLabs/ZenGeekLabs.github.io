@@ -3,6 +3,18 @@
 {{- define "content" -}}
     {{- .Page.Scratch.Set "enableTablesort" true -}}
     {{- $params := .Scratch.Get "params" -}}
+    {{- $author := .Params.author | default .Site.Params.Author.name | default (T "author") -}}
+    {{- $authorLink := .Params.authorlink | default .Site.Params.Author.link | default .Site.Home.RelPermalink -}}
+    {{- $gravatar := 0 -}}
+    {{- with .Site.Params.Author.gravataremail -}}
+        {{- $gravatar = md5 . | printf "https://www.gravatar.com/avatar/%v?s=240&d=mp" -}}
+    {{- end -}}
+    {{- $authorAvatar := .Params.authoravatar | default .Site.Params.Author.avatar | default $gravatar | default false -}}
+    {{- $authorOptim := slice
+        (dict "Process" "resize 16x16 Center webp q75" "descriptor" "16w")
+        (dict "Process" "resize 24x24 Center webp q75" "descriptor" "24w")
+        (dict "Process" "resize 32x32 Center webp q75" "descriptor" "32w")
+    -}}
     {{- $toc := $params.toc -}}
     {{- if eq $toc true -}}
     {{- $toc = .Site.Params.page.toc | default dict -}}
@@ -55,7 +67,12 @@
         <div class="post-meta">
             <div class="post-meta-line">
                 <span class="post-author">
-                    {{- partial "meta/author.html" . }}
+                    {{- if $authorAvatar -}}
+                        {{- dict "Width" "16" "Height" "16" "Src" $authorAvatar "Alt" (printf "%v avatar" $author) "OptimConfig" $authorOptim "Class" "tw:inline-block tw:max-h-4 tw:rounded-full tw:translate-y-[-2px] tw:mr-1" | partial "plugin/image.html" -}}
+                    {{- else -}}
+                        {{- partial "plugin/fontawesome.html" (dict "Style" "solid" "Icon" "user-circle") -}}
+                    {{- end -}}
+                    <a href="{{ $authorLink }}" title="{{ $author }}" class="author" rel="author">{{- $author -}}</a>
                 </span>
                 {{- with .Params.categories | or .Params.series -}}
                     &nbsp;<span class="post-category">
