@@ -17,7 +17,7 @@
     {{- end -}}
 
 {{- else if and .IsSection .Pages -}}
-    {{- $pages := .Pages.ByLastmod.Reverse.GroupByDate "2006" -}}
+    {{- $pages := .Pages.ByLastmod.Reverse -}}
     {{- with .Site.Params.section.paginate | default .Site.Params.paginate -}}
         {{- $pages = $.Paginate $pages . -}}
     {{- else -}}
@@ -35,7 +35,7 @@
             {{- $pages = .Paginate $pages -}}
         {{- end -}}
     {{- else -}}
-        {{- $pages = .Pages.ByLastmod.Reverse.GroupByDate "2006" -}}
+        {{- $pages = .Pages.ByLastmod.Reverse -}}
         {{- with .Site.Params.list.paginate | default .Site.Params.paginate -}}
             {{- $pages = $.Paginate $pages . -}}
         {{- else -}}

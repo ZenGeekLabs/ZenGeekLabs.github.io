@@ -19,22 +19,25 @@
 
         {{- if $pager -}}
             {{- partial "recentlyUpdated.html" . -}}
-            {{- range $pager.PageGroups -}}
-                <h3 class="group-title">{{ .Key }}</h3>
-                {{- range .Pages -}}
-                    {{- $displayDate := .Date -}}
-                    {{- if ne .Lastmod.Unix .Date.Unix -}}
-                        {{- $displayDate = .Lastmod -}}
-                    {{- end -}}
-                    <div class="archive-item">
-                        <a href="{{ .RelPermalink }}" class="archive-item-link">
-                            {{- .Title -}}
-                        </a>
-                        <span class="archive-item-date">
-                            {{- $.Site.Params.section.dateFormat | default "01-02" | $displayDate.Format -}}
-                        </span>
-                    </div>
+            {{- $.Scratch.Set "archiveYear" "" -}}
+            {{- range $pager.Pages -}}
+                {{- $displayDate := .Date -}}
+                {{- if ne .Lastmod.Unix .Date.Unix -}}
+                    {{- $displayDate = .Lastmod -}}
                 {{- end -}}
+                {{- $year := $displayDate.Format "2006" -}}
+                {{- if ne ($.Scratch.Get "archiveYear") $year -}}
+                    <h3 class="group-title">{{ $year }}</h3>
+                    {{- $.Scratch.Set "archiveYear" $year -}}
+                {{- end -}}
+                <div class="archive-item">
+                    <a href="{{ .RelPermalink }}" class="archive-item-link">
+                        {{- .Title -}}
+                    </a>
+                    <span class="archive-item-date">
+                        {{- $.Site.Params.section.dateFormat | default "01-02" | $displayDate.Format -}}
+                    </span>
+                </div>
             {{- end -}}
             {{- partial "paginator.html" . -}}
         {{- end -}}
