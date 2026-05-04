@@ -56,29 +56,9 @@
                     hreflang="zh-cn"
                     href="https://zengeeklabs.github.io/blog/"
                     /></url><url>
-            <loc>https://zengeeklabs.github.io/tags/%E7%AC%94%E8%AE%B0/</loc><lastmod>2024-07-18T21:00:00&#43;08:00</lastmod></url><url>
-            <loc>https://zengeeklabs.github.io/tags/</loc><lastmod>2024-07-18T21:00:00&#43;08:00</lastmod><xhtml:link
-                        rel="alternate"
-                        hreflang="en"
-                        href="https://zengeeklabs.github.io/en/tags/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="zh-cn"
-                    href="https://zengeeklabs.github.io/tags/"
-                    /></url><url>
-            <loc>https://zengeeklabs.github.io/categories/</loc><lastmod>2024-07-18T21:00:00&#43;08:00</lastmod><xhtml:link
-                        rel="alternate"
-                        hreflang="en"
-                        href="https://zengeeklabs.github.io/en/categories/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="zh-cn"
-                    href="https://zengeeklabs.github.io/categories/"
-                    /></url><url>
-            <loc>https://zengeeklabs.github.io/categories/%E9%98%85%E8%AF%BB/</loc><lastmod>2024-07-18T21:00:00&#43;08:00</lastmod></url><url>
-            <loc>https://zengeeklabs.github.io/tags/%E9%98%85%E8%AF%BB/</loc><lastmod>2024-07-18T21:00:00&#43;08:00</lastmod></url><url>
-            <loc>https://zengeeklabs.github.io/tags/%E7%9F%A5%E8%AF%86%E6%95%B4%E7%90%86/</loc><lastmod>2024-07-18T21:00:00&#43;08:00</lastmod></url><url>
-            <loc>https://zengeeklabs.github.io/tags/hugo/</loc><lastmod>2024-07-02T10:20:00&#43;08:00</lastmod><xhtml:link
+            <loc>https://zengeeklabs.github.io/blog/format-showcase/</loc><lastmod>2026-05-03T16:00:00&#43;08:00</lastmod></url><url>
+            <loc>https://zengeeklabs.github.io/tags/doit/</loc><lastmod>2026-05-03T16:00:00&#43;08:00</lastmod></url><url>
+            <loc>https://zengeeklabs.github.io/tags/hugo/</loc><lastmod>2026-05-03T16:00:00&#43;08:00</lastmod><xhtml:link
                         rel="alternate"
                         hreflang="en"
                         href="https://zengeeklabs.github.io/en/tags/hugo/"
@@ -87,6 +67,31 @@
                     hreflang="zh-cn"
                     href="https://zengeeklabs.github.io/tags/hugo/"
                     /></url><url>
+            <loc>https://zengeeklabs.github.io/tags/</loc><lastmod>2026-05-03T16:00:00&#43;08:00</lastmod><xhtml:link
+                        rel="alternate"
+                        hreflang="en"
+                        href="https://zengeeklabs.github.io/en/tags/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="zh-cn"
+                    href="https://zengeeklabs.github.io/tags/"
+                    /></url><url>
+            <loc>https://zengeeklabs.github.io/categories/%E6%B5%8B%E8%AF%95/</loc><lastmod>2026-05-03T16:00:00&#43;08:00</lastmod></url><url>
+            <loc>https://zengeeklabs.github.io/tags/%E6%B5%8B%E8%AF%95/</loc><lastmod>2026-05-03T16:00:00&#43;08:00</lastmod></url><url>
+            <loc>https://zengeeklabs.github.io/categories/</loc><lastmod>2026-05-03T16:00:00&#43;08:00</lastmod><xhtml:link
+                        rel="alternate"
+                        hreflang="en"
+                        href="https://zengeeklabs.github.io/en/categories/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="zh-cn"
+                    href="https://zengeeklabs.github.io/categories/"
+                    /></url><url>
+            <loc>https://zengeeklabs.github.io/tags/%E6%A0%BC%E5%BC%8F/</loc><lastmod>2026-05-03T16:00:00&#43;08:00</lastmod></url><url>
+            <loc>https://zengeeklabs.github.io/tags/%E7%AC%94%E8%AE%B0/</loc><lastmod>2024-07-18T21:00:00&#43;08:00</lastmod></url><url>
+            <loc>https://zengeeklabs.github.io/categories/%E9%98%85%E8%AF%BB/</loc><lastmod>2024-07-18T21:00:00&#43;08:00</lastmod></url><url>
+            <loc>https://zengeeklabs.github.io/tags/%E9%98%85%E8%AF%BB/</loc><lastmod>2024-07-18T21:00:00&#43;08:00</lastmod></url><url>
+            <loc>https://zengeeklabs.github.io/tags/%E7%9F%A5%E8%AF%86%E6%95%B4%E7%90%86/</loc><lastmod>2024-07-18T21:00:00&#43;08:00</lastmod></url><url>
             <loc>https://zengeeklabs.github.io/categories/%E4%BB%A3%E7%A0%81/</loc><lastmod>2024-07-02T10:20:00&#43;08:00</lastmod></url><url>
             <loc>https://zengeeklabs.github.io/tags/%E4%BB%A3%E7%A0%81/</loc><lastmod>2024-07-02T10:20:00&#43;08:00</lastmod></url><url>
             <loc>https://zengeeklabs.github.io/tags/%E7%89%87%E6%AE%B5/</loc><lastmod>2024-07-02T10:20:00&#43;08:00</lastmod></url><url>

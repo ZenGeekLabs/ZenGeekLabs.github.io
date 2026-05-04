@@ -38,5 +38,12 @@
         <name>ZenGeekLabs</name>
     </author><guid>https://zengeeklabs.github.io/blog/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0%E4%B8%8D%E4%B8%80%E5%AE%9A%E8%A6%81%E5%AE%8C%E6%95%B4%E5%85%88%E7%95%99%E4%B8%8B%E5%8F%AF%E6%A3%80%E7%B4%A2%E7%9A%84%E9%94%9A%E7%82%B9/</guid>
     <description><![CDATA[留下可检索的锚点，比追求一次成型的完整总结更容易持续。]]></description>
+</item><item>
+    <title>格式测试总览：目录、表格、代码块、提示框都放进来</title>
+    <link>https://zengeeklabs.github.io/blog/format-showcase/</link>
+    <pubDate>Sun, 03 May 2026 16:00:00 &#43;0800</pubDate><author>
+        <name>ZenGeekLabs</name>
+    </author><guid>https://zengeeklabs.github.io/blog/format-showcase/</guid>
+    <description><![CDATA[把常见格式都放在一篇文章里，方便检查目录栏、排版和组件样式。]]></description>
 </item></channel>
 </rss>
