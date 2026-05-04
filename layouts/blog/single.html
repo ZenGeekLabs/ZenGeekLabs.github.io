@@ -114,7 +114,7 @@
                 {{- with .Site.Params.dateformat | default "2006-01-02" | .PublishDate.Format -}}
                     {{ partial "plugin/fontawesome.html" (dict "Style" "regular" "Icon" "calendar-alt") }}&nbsp;<time datetime="{{ . }}">{{ . }}</time>&nbsp;
                 {{- end -}}
-                {{- if $params.enableLastMod | default true -}}
+                {{- if and ($params.enableLastMod | default true) (ne .Lastmod.Unix .Date.Unix) -}}
                     {{- with .Site.Params.dateformat | default "2006-01-02" | .Lastmod.Format -}}
                         {{ partial "plugin/fontawesome.html" (dict "Style" "regular" "Icon" "edit") }}&nbsp;<time datetime="{{ . }}">{{ . }}</time>&nbsp;
                     {{- end -}}

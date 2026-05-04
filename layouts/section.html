@@ -22,9 +22,6 @@
             {{- $.Scratch.Set "archiveYear" "" -}}
             {{- range $pager.Pages -}}
                 {{- $displayDate := .Date -}}
-                {{- if ne .Lastmod.Unix .Date.Unix -}}
-                    {{- $displayDate = .Lastmod -}}
-                {{- end -}}
                 {{- $year := $displayDate.Format "2006" -}}
                 {{- if ne ($.Scratch.Get "archiveYear") $year -}}
                     <h3 class="group-title">{{ $year }}</h3>
