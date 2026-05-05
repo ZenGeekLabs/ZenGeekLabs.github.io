@@ -9,50 +9,36 @@
     <title>My First Post</title>
     <link>https://zengeeklabs.github.io/en/blog/hello-world/</link>
     <pubDate>Mon, 20 May 2024 08:00:00 &#43;0800</pubDate><author>
-        <name>ZenGeekLabs</name>
+        <name>GeLiang Zhu</name>
     </author><guid>https://zengeeklabs.github.io/en/blog/hello-world/</guid>
     <description><![CDATA[A minimal post used to test the blog layout and basic typography.]]></description>
 </item><item>
     <title>A Bigger Toolbox Is Not the Goal. Methods Are.</title>
     <link>https://zengeeklabs.github.io/en/blog/toolbox-thinking/</link>
     <pubDate>Sat, 08 Jun 2024 09:30:00 &#43;0800</pubDate><author>
-        <name>ZenGeekLabs</name>
+        <name>GeLiang Zhu</name>
     </author><guid>https://zengeeklabs.github.io/en/blog/toolbox-thinking/</guid>
     <description><![CDATA[Tools can keep changing. Your methods should slowly become more stable.]]></description>
 </item><item>
     <title>Building a Writing System Matters More Than Finding the Next Tool</title>
     <link>https://zengeeklabs.github.io/en/blog/writing-system-notes/</link>
     <pubDate>Sat, 15 Jun 2024 20:15:00 &#43;0800</pubDate><author>
-        <name>ZenGeekLabs</name>
+        <name>GeLiang Zhu</name>
     </author><guid>https://zengeeklabs.github.io/en/blog/writing-system-notes/</guid>
     <description><![CDATA[What keeps writing sustainable is not constant tool upgrades, but a stable writing system.]]></description>
 </item><item>
     <title>A Few Hugo Snippets That Are Enough to Keep This Blog Growing</title>
     <link>https://zengeeklabs.github.io/en/blog/hugo-snippets/</link>
     <pubDate>Tue, 02 Jul 2024 10:20:00 &#43;0800</pubDate><author>
-        <name>ZenGeekLabs</name>
+        <name>GeLiang Zhu</name>
     </author><guid>https://zengeeklabs.github.io/en/blog/hugo-snippets/</guid>
     <description><![CDATA[Keeping reusable Hugo snippets around saves a lot of repeat searching.]]></description>
 </item><item>
     <title>Reading Notes Do Not Need to Be Complete. Leave Searchable Anchors First.</title>
     <link>https://zengeeklabs.github.io/en/blog/reading-notes/</link>
     <pubDate>Thu, 18 Jul 2024 21:00:00 &#43;0800</pubDate><author>
-        <name>ZenGeekLabs</name>
+        <name>GeLiang Zhu</name>
     </author><guid>https://zengeeklabs.github.io/en/blog/reading-notes/</guid>
     <description><![CDATA[Searchable anchors are easier to sustain than perfect summaries.]]></description>
-</item><item>
-    <title>Format Showcase: TOC, Tables, Code Blocks, and Admonitions in One Post</title>
-    <link>https://zengeeklabs.github.io/en/blog/format-showcase/</link>
-    <pubDate>Sun, 03 May 2026 16:00:00 &#43;0800</pubDate><author>
-        <name>ZenGeekLabs</name>
-    </author><guid>https://zengeeklabs.github.io/en/blog/format-showcase/</guid>
-    <description><![CDATA[Put the common formats into one article so we can quickly verify the TOC, typography, and component styling.]]></description>
-</item><item>
-    <title>A More Structured Article Bundle: One Post, One Folder, One assets Directory</title>
-    <link>https://zengeeklabs.github.io/en/blog/folder-structure-demo/</link>
-    <pubDate>Mon, 04 May 2026 09:00:00 &#43;0800</pubDate><author>
-        <name>ZenGeekLabs</name>
-    </author><guid>https://zengeeklabs.github.io/en/blog/folder-structure-demo/</guid>
-    <description><![CDATA[If the blog should feel more professional and easier to maintain, each post can be treated as a self-contained bundle.]]></description>
 </item></channel>
 </rss>

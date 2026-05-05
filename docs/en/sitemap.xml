@@ -47,34 +47,13 @@
                     hreflang="en"
                     href="https://zengeeklabs.github.io/en/blog/reading-notes/"
                     /></url><url>
-            <loc>https://zengeeklabs.github.io/en/blog/format-showcase/</loc><lastmod>2026-05-04T09:38:06&#43;08:00</lastmod><xhtml:link
-                        rel="alternate"
-                        hreflang="zh-cn"
-                        href="https://zengeeklabs.github.io/blog/format-showcase/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="en"
-                    href="https://zengeeklabs.github.io/en/blog/format-showcase/"
-                    /></url><url>
-            <loc>https://zengeeklabs.github.io/en/blog/folder-structure-demo/</loc><lastmod>2026-05-04T10:44:34&#43;08:00</lastmod><xhtml:link
-                        rel="alternate"
-                        hreflang="zh-cn"
-                        href="https://zengeeklabs.github.io/blog/folder/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="en"
-                    href="https://zengeeklabs.github.io/en/blog/folder-structure-demo/"
-                    /></url><url>
-            <loc>https://zengeeklabs.github.io/en/tags/assets/</loc><lastmod>2026-05-04T10:44:34&#43;08:00</lastmod><xhtml:link
-                        rel="alternate"
-                        hreflang="zh-cn"
-                        href="https://zengeeklabs.github.io/tags/assets/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="en"
-                    href="https://zengeeklabs.github.io/en/tags/assets/"
-                    /></url><url>
-            <loc>https://zengeeklabs.github.io/en/tags/hugo/</loc><lastmod>2026-05-04T10:44:34&#43;08:00</lastmod><xhtml:link
+            <loc>https://zengeeklabs.github.io/en/tags/knowledge-management/</loc><lastmod>2026-05-04T01:52:28&#43;08:00</lastmod></url><url>
+            <loc>https://zengeeklabs.github.io/en/tags/notes/</loc><lastmod>2026-05-04T01:52:28&#43;08:00</lastmod></url><url>
+            <loc>https://zengeeklabs.github.io/en/categories/reading/</loc><lastmod>2026-05-04T01:52:28&#43;08:00</lastmod></url><url>
+            <loc>https://zengeeklabs.github.io/en/tags/reading/</loc><lastmod>2026-05-04T01:52:28&#43;08:00</lastmod></url><url>
+            <loc>https://zengeeklabs.github.io/en/categories/code/</loc><lastmod>2026-05-04T01:52:28&#43;08:00</lastmod></url><url>
+            <loc>https://zengeeklabs.github.io/en/tags/code/</loc><lastmod>2026-05-04T01:52:28&#43;08:00</lastmod></url><url>
+            <loc>https://zengeeklabs.github.io/en/tags/hugo/</loc><lastmod>2026-05-04T01:52:28&#43;08:00</lastmod><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
                         href="https://zengeeklabs.github.io/tags/hugo/"
@@ -83,28 +62,9 @@
                     hreflang="en"
                     href="https://zengeeklabs.github.io/en/tags/hugo/"
                     /></url><url>
-            <loc>https://zengeeklabs.github.io/en/tags/structure/</loc><lastmod>2026-05-04T10:44:34&#43;08:00</lastmod></url><url>
-            <loc>https://zengeeklabs.github.io/en/categories/testing/</loc><lastmod>2026-05-04T10:44:34&#43;08:00</lastmod></url><url>
-            <loc>https://zengeeklabs.github.io/en/tags/workflow/</loc><lastmod>2026-05-04T10:44:34&#43;08:00</lastmod></url><url>
-            <loc>https://zengeeklabs.github.io/en/tags/doit/</loc><lastmod>2026-05-04T09:38:06&#43;08:00</lastmod><xhtml:link
-                        rel="alternate"
-                        hreflang="zh-cn"
-                        href="https://zengeeklabs.github.io/tags/doit/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="en"
-                    href="https://zengeeklabs.github.io/en/tags/doit/"
-                    /></url><url>
-            <loc>https://zengeeklabs.github.io/en/tags/formatting/</loc><lastmod>2026-05-04T09:38:06&#43;08:00</lastmod></url><url>
-            <loc>https://zengeeklabs.github.io/en/tags/testing/</loc><lastmod>2026-05-04T09:38:06&#43;08:00</lastmod></url><url>
-            <loc>https://zengeeklabs.github.io/en/tags/knowledge-management/</loc><lastmod>2026-05-04T01:52:28&#43;08:00</lastmod></url><url>
-            <loc>https://zengeeklabs.github.io/en/tags/notes/</loc><lastmod>2026-05-04T01:52:28&#43;08:00</lastmod></url><url>
-            <loc>https://zengeeklabs.github.io/en/categories/reading/</loc><lastmod>2026-05-04T01:52:28&#43;08:00</lastmod></url><url>
-            <loc>https://zengeeklabs.github.io/en/tags/reading/</loc><lastmod>2026-05-04T01:52:28&#43;08:00</lastmod></url><url>
-            <loc>https://zengeeklabs.github.io/en/categories/code/</loc><lastmod>2026-05-04T01:52:28&#43;08:00</lastmod></url><url>
-            <loc>https://zengeeklabs.github.io/en/tags/code/</loc><lastmod>2026-05-04T01:52:28&#43;08:00</lastmod></url><url>
             <loc>https://zengeeklabs.github.io/en/tags/snippets/</loc><lastmod>2026-05-04T01:52:28&#43;08:00</lastmod></url><url>
             <loc>https://zengeeklabs.github.io/en/tags/system/</loc><lastmod>2026-05-04T01:52:28&#43;08:00</lastmod></url><url>
+            <loc>https://zengeeklabs.github.io/en/tags/workflow/</loc><lastmod>2026-05-04T01:52:28&#43;08:00</lastmod></url><url>
             <loc>https://zengeeklabs.github.io/en/categories/writing/</loc><lastmod>2026-05-04T01:52:28&#43;08:00</lastmod></url><url>
             <loc>https://zengeeklabs.github.io/en/tags/writing/</loc><lastmod>2026-05-04T01:52:28&#43;08:00</lastmod></url><url>
             <loc>https://zengeeklabs.github.io/en/tags/methods/</loc><lastmod>2026-05-04T01:52:28&#43;08:00</lastmod></url><url>

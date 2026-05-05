@@ -3,19 +3,12 @@
         <title>Workflow - Tag - ZenGeekLabs blog</title>
         <link>https://zengeeklabs.github.io/en/tags/workflow/</link>
         <description>Workflow - Tag - ZenGeekLabs blog</description>
-        <generator>Hugo -- gohugo.io</generator><language>en-US</language><lastBuildDate>Mon, 04 May 2026 09:00:00 &#43;0800</lastBuildDate><atom:link href="https://zengeeklabs.github.io/en/tags/workflow/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en-US</language><lastBuildDate>Sat, 15 Jun 2024 20:15:00 &#43;0800</lastBuildDate><atom:link href="https://zengeeklabs.github.io/en/tags/workflow/" rel="self" type="application/rss+xml" /><item>
     <title>Building a Writing System Matters More Than Finding the Next Tool</title>
     <link>https://zengeeklabs.github.io/en/blog/writing-system-notes/</link>
     <pubDate>Sat, 15 Jun 2024 20:15:00 &#43;0800</pubDate><author>
-        <name>ZenGeekLabs</name>
+        <name>GeLiang Zhu</name>
     </author><guid>https://zengeeklabs.github.io/en/blog/writing-system-notes/</guid>
     <description><![CDATA[What keeps writing sustainable is not constant tool upgrades, but a stable writing system.]]></description>
-</item><item>
-    <title>A More Structured Article Bundle: One Post, One Folder, One assets Directory</title>
-    <link>https://zengeeklabs.github.io/en/blog/folder-structure-demo/</link>
-    <pubDate>Mon, 04 May 2026 09:00:00 &#43;0800</pubDate><author>
-        <name>ZenGeekLabs</name>
-    </author><guid>https://zengeeklabs.github.io/en/blog/folder-structure-demo/</guid>
-    <description><![CDATA[If the blog should feel more professional and easier to maintain, each post can be treated as a self-contained bundle.]]></description>
 </item></channel>
 </rss>

@@ -3,19 +3,12 @@
         <title>工作流 - 标签 - ZenGeekLabs blog</title>
         <link>https://zengeeklabs.github.io/tags/%E5%B7%A5%E4%BD%9C%E6%B5%81/</link>
         <description>工作流 - 标签 - ZenGeekLabs blog</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Mon, 04 May 2026 09:00:00 &#43;0800</lastBuildDate><atom:link href="https://zengeeklabs.github.io/tags/%E5%B7%A5%E4%BD%9C%E6%B5%81/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Sat, 15 Jun 2024 20:15:00 &#43;0800</lastBuildDate><atom:link href="https://zengeeklabs.github.io/tags/%E5%B7%A5%E4%BD%9C%E6%B5%81/" rel="self" type="application/rss+xml" /><item>
     <title>把写作系统搭起来，比找下一个工具更重要</title>
     <link>https://zengeeklabs.github.io/blog/%E6%8A%8A%E5%86%99%E4%BD%9C%E7%B3%BB%E7%BB%9F%E6%90%AD%E8%B5%B7%E6%9D%A5%E6%AF%94%E6%89%BE%E4%B8%8B%E4%B8%80%E4%B8%AA%E5%B7%A5%E5%85%B7%E6%9B%B4%E9%87%8D%E8%A6%81/</link>
     <pubDate>Sat, 15 Jun 2024 20:15:00 &#43;0800</pubDate><author>
-        <name>ZenGeekLabs</name>
+        <name>GeLiang Zhu</name>
     </author><guid>https://zengeeklabs.github.io/blog/%E6%8A%8A%E5%86%99%E4%BD%9C%E7%B3%BB%E7%BB%9F%E6%90%AD%E8%B5%B7%E6%9D%A5%E6%AF%94%E6%89%BE%E4%B8%8B%E4%B8%80%E4%B8%AA%E5%B7%A5%E5%85%B7%E6%9B%B4%E9%87%8D%E8%A6%81/</guid>
     <description><![CDATA[真正让写作持续发生的，不是工具更新，而是一套稳定的写作系统。]]></description>
-</item><item>
-    <title>工程化文章目录示例：一篇文章、一个文件夹、一个 assets</title>
-    <link>https://zengeeklabs.github.io/blog/folder/</link>
-    <pubDate>Mon, 04 May 2026 09:00:00 &#43;0800</pubDate><author>
-        <name>ZenGeekLabs</name>
-    </author><guid>https://zengeeklabs.github.io/blog/folder/</guid>
-    <description><![CDATA[如果后面想让博客更专业、更好维护，可以把每篇文章都组织成一个完整的小单元。]]></description>
 </item></channel>
 </rss>
