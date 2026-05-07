@@ -4,13 +4,6 @@
         <link>https://zengeeklabs.github.io/en/blog/</link>
         <description>Posts -  - ZenGeekLabs blog</description>
         <generator>Hugo -- gohugo.io</generator><language>en-US</language><atom:link href="https://zengeeklabs.github.io/en/blog/" rel="self" type="application/rss+xml" /><item>
-    <title>My First Post</title>
-    <link>https://zengeeklabs.github.io/en/blog/hello-world/</link>
-    <pubDate>Mon, 20 May 2024 08:00:00 &#43;0800</pubDate><author>
-        <name>GeLiang Zhu</name>
-    </author><guid>https://zengeeklabs.github.io/en/blog/hello-world/</guid>
-    <description><![CDATA[A minimal post used to test the blog layout and basic typography.]]></description>
-</item><item>
     <title>A Bigger Toolbox Is Not the Goal. Methods Are.</title>
     <link>https://zengeeklabs.github.io/en/blog/toolbox-thinking/</link>
     <pubDate>Sat, 08 Jun 2024 09:30:00 &#43;0800</pubDate><author>

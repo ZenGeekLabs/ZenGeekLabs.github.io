@@ -4,13 +4,6 @@
         <link>https://zengeeklabs.github.io/en/tags/hugo/</link>
         <description>Hugo - Tag - ZenGeekLabs blog</description>
         <generator>Hugo -- gohugo.io</generator><language>en-US</language><lastBuildDate>Tue, 02 Jul 2024 10:20:00 &#43;0800</lastBuildDate><atom:link href="https://zengeeklabs.github.io/en/tags/hugo/" rel="self" type="application/rss+xml" /><item>
-    <title>My First Post</title>
-    <link>https://zengeeklabs.github.io/en/blog/hello-world/</link>
-    <pubDate>Mon, 20 May 2024 08:00:00 &#43;0800</pubDate><author>
-        <name>GeLiang Zhu</name>
-    </author><guid>https://zengeeklabs.github.io/en/blog/hello-world/</guid>
-    <description><![CDATA[A minimal post used to test the blog layout and basic typography.]]></description>
-</item><item>
     <title>A Few Hugo Snippets That Are Enough to Keep This Blog Growing</title>
     <link>https://zengeeklabs.github.io/en/blog/hugo-snippets/</link>
     <pubDate>Tue, 02 Jul 2024 10:20:00 &#43;0800</pubDate><author>
